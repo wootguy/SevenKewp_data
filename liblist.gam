@@ -1,0 +1,13 @@
+// Load order is determined by file order.
+game "Seven Kewp"
+url_info "https://github.com/wootguy/SevenKewp"
+url_dl ""
+version "1.0"
+size "37000000"
+svonly "0"
+type "singleplayer_only"
+mpentity "info_player_deathmatch"
+gamedll "dlls/server.dll"
+gamedll_linux "dlls/server.so"
+gamedll_osx "dlls/server.dylib"
+cldll "1"
