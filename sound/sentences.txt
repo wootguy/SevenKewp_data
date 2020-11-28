@@ -1495,3 +1495,21 @@ FG_CURE3 fgrunt/hell
 FG_CURE4 fgrunt/feel
 
 FG_MAKEIT fgrunt/makeit
+
+
+// SHOCK TROOPER
+ST_GREN0 shocktrooper/kss kyur kiml
+ST_ALERT0 shocktrooper/dit dit
+ST_ALERT1 shocktrooper/dit kss kss
+ST_ALERT2 shocktrooper/kss dit dit kss
+ST_MONST0 shocktrooper/pur thirv pur kss kss
+ST_COVER0 shocktrooper/ka ga blis blis ka
+ST_THROW0 shocktrooper/kss wirt ras
+ST_TAUNT0 shocktrooper/kiml kiml
+ST_CHARGE0 shocktrooper/mub puh mub dit dit
+ST_IDLE0 shocktrooper/ku kur ku
+ST_QUEST0 shocktrooper/puh pur hyu ka
+ST_ANSWER0 shocktrooper/dup dup
+ST_CLEAR0 shocktrooper/dup blis dup
+ST_CHECK0 shocktrooper/kss kss
+
