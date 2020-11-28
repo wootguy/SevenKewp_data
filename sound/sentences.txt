@@ -1513,3 +1513,124 @@ ST_ANSWER0 shocktrooper/dup dup
 ST_CLEAR0 shocktrooper/dup blis dup
 ST_CHECK0 shocktrooper/kss kss
 
+
+
+// OTIS
+
+//When player asks Otis to follow:
+OT_OK0 otis/reputation
+OT_OK1 otis/live
+OT_OK2 otis/together
+OT_OK3 otis/letsgo
+OT_OK4 otis/diealone
+OT_OK5 otis/joinyou
+OT_OK6 otis/teamup
+
+OT_WAIT0 otis/help
+OT_WAIT1 otis/go_on
+OT_WAIT2 otis/slowingyoudown
+OT_WAIT3 otis/illwait
+OT_WAIT4 otis/seeya
+OT_WAIT5 otis/standguard
+OT_WAIT6 otis/notalone
+
+OT_HELLO0 otis/hello
+OT_HELLO1 otis/soldier
+OT_HELLO2 otis/hiya
+OT_HELLO3 otis/hey
+
+OT_QUESTION0 otis/beer
+OT_QUESTION1 otis/rightdirection
+OT_QUESTION2 otis/getanyworse
+OT_QUESTION3 otis/gladof
+OT_QUESTION4 otis/aliencombat
+OT_QUESTION5 otis/somethingmoves
+OT_QUESTION6 otis/noise
+
+OT_ANSWER0 otis/yes
+OT_ANSWER1 otis/yessir
+OT_ANSWER2 otis/youbet
+OT_ANSWER3 otis/alright
+OT_ANSWER4 otis/yup
+OT_ANSWER5 otis/yeah
+OT_ANSWER6 otis/noway
+OT_ANSWER7 otis/doubt
+OT_ANSWER8 otis/breath
+OT_ANSWER9 otis/no
+OT_ANSWER10 otis/dontguess
+OT_ANSWER12 otis/nope
+OT_ANSWER13 otis/nosir
+OT_ANSWER14 otis/dontask
+OT_ANSWER15 otis/suppose
+OT_ANSWER16 otis/hell
+OT_ANSWER17 otis/cantfigure
+OT_ANSWER18 otis/maybe
+OT_ANSWER19 otis/talkmuch
+OT_ANSWER20 otis/dejavu
+
+OT_KILL0 otis/gotone
+OT_KILL1 otis/another
+OT_KILL2 otis/buttugly
+OT_KILL3 otis/seethat
+OT_KILL4 otis/close
+OT_KILL5 otis/firepl
+OT_KILL6 otis/bring
+
+OT_MAD0 otis/bully
+OT_MAD1 otis/somuch
+OT_MAD2 otis/dontmake
+OT_MAD3 otis/tomb
+
+OT_SHOT0 otis/friends
+OT_SHOT1 otis/chump
+OT_SHOT2 otis/watchit
+OT_SHOT3 otis/damn
+OT_SHOT4 otis/quitit
+OT_SHOT5 otis/onry
+
+OT_IDLE0 otis/mom
+OT_IDLE1 otis/aliens
+OT_IDLE2 otis/wuss
+OT_IDLE3 otis/bridge
+OT_IDLE4 otis/closet
+OT_IDLE5 otis/cousin
+OT_IDLE6 otis/mall
+
+OT_ATTACK0 otis/behind
+OT_ATTACK1 otis/leftovers
+OT_ATTACK2 otis/yourback
+OT_ATTACK3 otis/die
+
+OT_HEAR0 otis/hearsomething
+OT_HEAR1 otis/soundsbad
+
+OT_SMELL0 otis/ass
+OT_SMELL1 otis/chili
+OT_SMELL2 otis/janitor
+
+OT_CUREA otis/scar
+OT_CUREB otis/insurance
+OT_CUREC otis/medic
+
+OT_SCARED0 otis/donthurtem
+OT_SCARED1 otis/leavealone
+
+OT_WOUND0 otis/imhit
+OT_WOUND1 otis/virgin
+
+OT_MORTAL0 otis/imdead
+OT_MORTAL1 otis/hitbad
+
+OT_MISC0 otis/stupidmachines
+OT_MISC1 otis/quarter
+
+//scripts
+OT_NOTOPEN otis/of1a1_ot01
+OT_FOUNDVEST otis/of1a1_ot02
+OT_GOODLUCK otis/of1a1_ot03
+OT_FINDMORE otis/of1a1_ot04
+OT_SCREAMING otis/of1a5_ot01
+OT_TRUSTYA otis/of2a6_ot01
+OT_TRANSPORTER otis/of3a2_ot01
+OT_TELLSECRET otis/of6a3_ot01
+
