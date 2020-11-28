@@ -1,3 +1,5 @@
 voltigore.mdl:
 - moved orb attachement point
 - added .wav suffix to death sound events
+
+submodels merged with modelguy
