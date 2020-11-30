@@ -1641,3 +1641,56 @@ OT_TRUSTYA otis/of2a6_ot01
 OT_TRANSPORTER otis/of3a2_ot01
 OT_TELLSECRET otis/of6a3_ot01
 
+//--------------------------
+// BODY GUARD
+//--------------------------
+BG_IDLE0 bodyguard/pathetic
+BG_IDLE1 bodyguard/mondays
+BG_IDLE2 bodyguard/shownupdrunk
+BG_IDLE3 bodyguard/shootface
+BG_IDLE4 bodyguard/nicesuit
+BG_OK0 bodyguard/letsmove
+BG_OK1 bodyguard/babysitter
+BG_OK2 bodyguard/yougotit
+BG_WAIT0 bodyguard/stop3
+BG_WAIT1 bodyguard/laterfellas
+BG_WAIT2 bodyguard/waitinrighthere
+BG_WAIT3 bodyguard/seeyalater
+BG_HELLO0 bodyguard/hello
+BG_HELLO1 bodyguard/whatsgoinon
+BG_HELLO2 bodyguard/someonescoming
+BG_ATTACK0 bodyguard/getshitoverwith
+BG_SMELL0 bodyguard/happenedhere
+BG_CUREA bodyguard/looklikeshit
+BG_CUREB bodyguard/hellhappenedyou
+BG_CUREC bodyguard/notaninjury
+BG_SCARED0 bodyguard/hellareyoudoing
+BG_SCARED1 bodyguard/knockitoff
+BG_SCARED2  bodyguard/backoff
+BG_WOUND0 bodyguard/pain1
+BG_WOUND1 bodyguard/pain2
+BG_WOUND2 bodyguard/pain3
+BG_WOUND3 bodyguard/pain4
+BG_MORTAL0 bodyguard/justafleshwound
+BG_SHOT0 bodyguard/hellaimingat
+BG_SHOT1 bodyguard/watchyourfire
+BG_SHOT2 bodyguard/wounded1
+BG_MAD0 bodyguard/bringiton
+BG_MAD1 bodyguard/heyoverhere
+BG_MAD2 bodyguard/primalroar
+BG_KILL0 bodyguard/whathelljoke
+BG_KILL1 bodyguard/layeggs
+BG_KILL2 bodyguard/ashestoashes
+BG_POK0 bodyguard/imbusy
+BG_POK1 bodyguard/getlost
+BG_POK2 bodyguard/palimworking
+BG_POK3 bodyguard/onassignment
+BG_STOP0 bodyguard/stop1
+BG_STOP1 bodyguard/stop2
+BG_STOP2 bodyguard/stop3
+// Bodyguard sentence keys for which there do not exist sounds
+BG_ANSWER0 bodyguard/_comma
+BG_QUESTION0 bodyguard/_comma
+BG_STARE0 bodyguard/_comma
+BG_PQUEST0 bodyguard/_comma
+
