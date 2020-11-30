@@ -1496,6 +1496,13 @@ FG_CURE4 fgrunt/feel
 
 FG_MAKEIT fgrunt/makeit
 
+// MEDIC GRUNT
+MG_HEAL0 fgrunt/sting
+MG_HEAL1 fgrunt/onepiece
+MG_HEAL2 fgrunt/fwound
+
+MG_NOTHEAL0 fgrunt/nohealth
+
 
 // SHOCK TROOPER
 ST_GREN0 shocktrooper/kss kyur kiml
