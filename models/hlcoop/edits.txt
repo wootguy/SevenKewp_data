@@ -7,3 +7,12 @@ submodels merged with modelguy
 
 gonome.mdl:
 - use hlcoop sound subfolder
+
+w_shock_roach.mdl:
+- use hlcoop sound subfolder
+
+pit_drone.mdl:
+- use hlcoop sound subfolder
+
+babygarg.mdl
+- removed idle model sound
