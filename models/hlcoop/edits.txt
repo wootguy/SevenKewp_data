@@ -1,5 +1,9 @@
 voltigore.mdl:
 - moved orb attachement point
 - added .wav suffix to death sound events
+- use hlcoop sound subfolder
 
 submodels merged with modelguy
+
+gonome.mdl:
+- use hlcoop sound subfolder
