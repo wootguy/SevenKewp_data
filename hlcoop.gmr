@@ -22,6 +22,7 @@ models/hwgruntf.mdl					models/hlcoop/hwgruntf.mdl
 models/kingpin.mdl					models/hlcoop/kingpin.mdl
 models/massn.mdl					models/hlcoop/massn.mdl
 models/otis.mdl						models/hlcoop/otis.mdl
+models/otisf.mdl					models/hlcoop/otisf.mdl
 models/pit_drone.mdl				models/hlcoop/pit_drone.mdl
 models/pit_drone_gibs.mdl			models/hlcoop/pit_drone_gibs.mdl
 models/pit_drone_spike.mdl			models/hlcoop/pit_drone_spike.mdl
