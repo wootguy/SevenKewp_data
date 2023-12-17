@@ -1,0 +1,13 @@
+12
+weapon			2560 hlcoop/2560/weapon_grapple_weapon	0	0	510	135
+weapon_s		2560 hlcoop/2560/weapon_grapple_weapon_s	0	0	510	135
+crosshair		2560 hlcoop/2560ofch1	0	0	72	72
+weapon			1280 hlcoop/1280/weapon_grapple_weapon	0	0	340	90
+weapon_s		1280 hlcoop/1280/weapon_grapple_weapon_s	0	0	340	90
+crosshair		1280 hlcoop/1280ofch1	0	0	48	48
+weapon			640 hlcoop/640hudof01	0	45	170	45
+weapon_s		640 hlcoop/640hudof02	0	45	170	45
+crosshair		640 hlcoop/ofch1	0	0	24	24
+weapon			320 hlcoop/320hudof01	0	40	80	20
+weapon_s		320 hlcoop/320hudof01	0	60	80	20
+crosshair		320 hlcoop/ofch1	0	0	24	24
