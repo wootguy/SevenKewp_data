@@ -16,3 +16,6 @@ pit_drone.mdl:
 
 babygarg.mdl
 - removed idle model sound
+
+v_bgrap.mdl
+- use hlcoop sound folder
