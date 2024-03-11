@@ -1,3 +1,4 @@
+models/agruntf.mdl					models/agrunt.mdl
 models/babygarg.mdl					models/hlcoop/babygarg.mdl
 models/babygargf.mdl				models/hlcoop/babygargf.mdl
 models/baby_voltigore.mdl			models/hlcoop/baby_voltigore.mdl
@@ -11,12 +12,14 @@ models/blkop_tailgibs.mdl			models/hlcoop/blkop_tailgibs.mdl
 models/chumtoad.mdl					models/hlcoop/chumtoad.mdl
 models/cleansuit_scientist.mdl		models/hlcoop/cleansuit_scientist.mdl
 models/gonome.mdl					models/hlcoop/gonome.mdl
+models/hgruntf.mdl					models/hgrunt.mdl
 models/hgrunt_medic.mdl				models/hlcoop/hgrunt_medic.mdl
 models/hgrunt_medicf.mdl			models/hlcoop/hgrunt_medicf.mdl
 models/hgrunt_opfor.mdl				models/hlcoop/hgrunt_opfor.mdl
 models/hgrunt_opforf.mdl			models/hlcoop/hgrunt_opforf.mdl
 models/hgrunt_torch.mdl				models/hlcoop/hgrunt_torch.mdl
 models/hgrunt_torchf.mdl			models/hlcoop/hgrunt_torchf.mdl
+models/hassassinf.mdl				models/hassassin.mdl
 models/hwgrunt.mdl					models/hlcoop/hwgrunt.mdl
 models/hwgruntf.mdl					models/hlcoop/hwgruntf.mdl
 models/kingpin.mdl					models/hlcoop/kingpin.mdl
