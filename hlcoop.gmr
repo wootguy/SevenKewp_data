@@ -39,6 +39,7 @@ models/hwgrunt.mdl					models/hlcoop_v2/hwgrunt.mdl
 models/hwgruntf.mdl					models/hlcoop_v2/hwgrunt.mdl
 models/icky.mdl						models/hlcoop_v2/icky.mdl
 models/islave.mdl					models/hlcoop_v2/islave.mdl
+models/islavef.mdl					models/hlcoop_v2/islave.mdl
 models/kingpin.mdl					models/hlcoop_v2/kingpin.mdl
 models/massn.mdl					models/hlcoop_v2/massn.mdl
 models/miniturret.mdl				models/hlcoop_v2/miniturret.mdl
