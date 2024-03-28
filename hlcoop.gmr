@@ -8,6 +8,8 @@ models/babygarg.mdl					models/hlcoop_v2/babygarg.mdl
 models/babygargf.mdl				models/hlcoop_v2/babygarg.mdl
 models/barnabus.mdl					models/hlcoop_v2/barney.mdl
 models/barney.mdl					models/hlcoop_v2/barney.mdl
+models/barney_helmet.mdl			models/hlcoop_v2/barney_helmet.mdl
+models/barney_vest.mdl				models/hlcoop_v2/barney_vest.mdl
 models/bgman.mdl					models/hlcoop_v2/bgman.mdl
 models/big_mom.mdl					models/hlcoop_v2/big_mom.mdl
 models/bigshrapnel.mdl				models/hlcoop_v2/bigshrapnel.mdl
