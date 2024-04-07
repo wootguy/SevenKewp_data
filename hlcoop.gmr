@@ -49,7 +49,7 @@ models/nihilanth.mdl				models/hlcoop_v2/nihilanth.mdl
 models/osprey.mdl					models/hlcoop_v2/osprey.mdl
 models/otis.mdl						models/hlcoop_v2/otis.mdl
 models/otisf.mdl					models/hlcoop_v2/otis.mdl
-models/pit_drone.mdl				models/hlcoop_v2/pit_drone.mdl
+models/pit_drone.mdl				models/hlcoop_v2/pit_drone_v2.mdl
 models/pit_drone_gibs.mdl			models/hlcoop_v2/pit_drone_gibs.mdl
 models/pit_drone_spike.mdl			models/hlcoop_v2/pit_drone_spike.mdl
 models/rgrunt.mdl					models/hlcoop_v2/rgrunt.mdl
