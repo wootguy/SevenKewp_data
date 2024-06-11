@@ -60,6 +60,7 @@ models/scientist.mdl				models/hlcoop_v2/scientist.mdl
 models/sentry.mdl					models/hlcoop_v2/sentry.mdl
 models/shock_effect.mdl				models/hlcoop_v2/shock_effect.mdl
 models/spore.mdl					models/hlcoop_v2/spore.mdl
+models/spore_ammo.mdl				models/hlcoop_v2/spore_ammo.mdl
 models/strooper.mdl					models/hlcoop_v2/strooper.mdl
 models/strooper_gibs.mdl			models/hlcoop_v2/strooper_gibs.mdl
 models/tor.mdl						models/hlcoop_v2/tor.mdl
@@ -73,9 +74,52 @@ models/zombie.mdl					models/hlcoop_v2/zombie.mdl
 models/zombie_barney.mdl			models/hlcoop_v2/zombie_barney.mdl
 models/zombie_soldier.mdl			models/hlcoop_v2/zombie_soldier.mdl
 
-models/w_bgrap.mdl					models/hlcoop_v2/w_bgrap.mdl
-models/v_bgrap.mdl					models/hlcoop_v2/v_bgrap.mdl
-models/p_bgrap.mdl					models/hlcoop_v2/p_bgrap.mdl
+models/w_bgrap.mdl							models/hlcoop_v2/w_bgrap.mdl
+models/v_bgrap.mdl							models/hlcoop_v2/v_bgrap.mdl
+models/p_bgrap.mdl							models/hlcoop_v2/p_bgrap.mdl
+sprites/1280/weapon_grapple_weapon.spr		sprites/hlcoop/1280/weapon_grapple_weapon.spr
+sprites/1280/weapon_grapple_weapon_s.spr	sprites/hlcoop/1280/weapon_grapple_weapon_s.spr
+sprites/2560/weapon_grapple_weapon.spr		sprites/hlcoop/2560/weapon_grapple_weapon.spr
+sprites/2560/weapon_grapple_weapon_s.spr	sprites/hlcoop/2560/weapon_grapple_weapon_s.spr
+sprites/weapon_grapple.txt					sprites/hlcoop/weapon_grapple.txt
+
+models/w_displacer.mdl						models/hlcoop_v2/w_displacer.mdl
+models/v_displacer.mdl						models/hlcoop_v2/v_displacer.mdl
+models/p_displacer.mdl						models/hlcoop_v2/p_displacer.mdl
+sprites/1280/weapon_displacer_weapon.spr	sprites/hlcoop/1280/weapon_displacer_weapon.spr
+sprites/1280/weapon_displacer_weapon_s.spr	sprites/hlcoop/1280/weapon_displacer_weapon_s.spr
+sprites/2560/weapon_displacer_weapon.spr	sprites/hlcoop/2560/weapon_displacer_weapon.spr
+sprites/2560/weapon_displacer_weapon_s.spr	sprites/hlcoop/2560/weapon_displacer_weapon_s.spr
+sprites/weapon_displacer.txt				sprites/hlcoop/weapon_displacer.txt
+
+models/w_pipe_wrench.mdl					models/hlcoop_v2/w_pipe_wrench.mdl
+models/v_pipe_wrench.mdl					models/hlcoop_v2/v_pipe_wrench.mdl
+models/p_pipe_wrench.mdl					models/hlcoop_v2/p_pipe_wrench.mdl
+sprites/1280/weapon_pipewrench_weapon.spr	sprites/hlcoop/1280/weapon_pipewrench_weapon.spr
+sprites/1280/weapon_pipewrench_weapon_s.spr	sprites/hlcoop/1280/weapon_pipewrench_weapon_s.spr
+sprites/2560/weapon_pipewrench_weapon.spr	sprites/hlcoop/2560/weapon_pipewrench_weapon.spr
+sprites/2560/weapon_pipewrench_weapon_s.spr	sprites/hlcoop/2560/weapon_pipewrench_weapon_s.spr
+sprites/weapon_pipewrench.txt				sprites/hlcoop/weapon_pipewrench.txt
+
+models/w_shock.mdl							models/hlcoop_v2/w_shock.mdl
+models/v_shock.mdl							models/hlcoop_v2/v_shock.mdl
+models/p_shock.mdl							models/hlcoop_v2/p_shock.mdl
+sprites/1280/weapon_shockrifle_weapon.spr	sprites/hlcoop/1280/weapon_shockrifle_weapon.spr
+sprites/1280/weapon_shockrifle_weapon_s.spr	sprites/hlcoop/1280/weapon_shockrifle_weapon_s.spr
+sprites/2560/weapon_shockrifle_weapon.spr	sprites/hlcoop/2560/weapon_shockrifle_weapon.spr
+sprites/2560/weapon_shockrifle_weapon_s.spr	sprites/hlcoop/2560/weapon_shockrifle_weapon_s.spr
+sprites/2560/weapon_shockrifle_ammo.spr		sprites/hlcoop/2560/weapon_shockrifle_ammo.spr
+sprites/weapon_shockrifle.txt				sprites/hlcoop/weapon_shockrifle.txt
+
+models/w_spore_launcher.mdl						models/hlcoop_v2/w_spore_launcher.mdl
+models/v_spore_launcher.mdl						models/hlcoop_v2/v_spore_launcher.mdl
+models/p_spore_launcher.mdl						models/hlcoop_v2/p_spore_launcher.mdl
+sprites/1280/weapon_sporelauncher_weapon.spr	sprites/hlcoop/1280/weapon_sporelauncher_weapon.spr
+sprites/1280/weapon_sporelauncher_weapon_s.spr	sprites/hlcoop/1280/weapon_sporelauncher_weapon_s.spr
+sprites/2560/weapon_sporelauncher_weapon.spr	sprites/hlcoop/2560/weapon_sporelauncher_weapon.spr
+sprites/2560/weapon_sporelauncher_weapon_s.spr	sprites/hlcoop/2560/weapon_sporelauncher_weapon_s.spr
+sprites/2560/weapon_sporelauncher_ammo.spr		sprites/hlcoop/2560/weapon_sporelauncher_ammo.spr
+sprites/weapon_sporelauncher.txt				sprites/hlcoop/weapon_sporelauncher.txt
 
 sprites/shraphit.spr						sprites/hlcoop/shraphit.spr
 sprites/blood_chnk.spr						sprites/hlcoop/blood_chnk.spr
@@ -89,12 +133,10 @@ sprites/tongue.spr							sprites/hlcoop/tongue.spr
 sprites/320hudof01.spr						sprites/hlcoop/320hudof01.spr
 sprites/640hudof01.spr						sprites/hlcoop/640hudof01.spr
 sprites/640hudof02.spr						sprites/hlcoop/640hudof02.spr
+sprites/640hudof03.spr						sprites/hlcoop/640hudof03.spr
+sprites/640hudof04.spr						sprites/hlcoop/640hudof04.spr
 sprites/1280ofch1.spr						sprites/hlcoop/1280ofch1.spr
 sprites/2560ofch1.spr						sprites/hlcoop/2560ofch1.spr
 sprites/ofch1.spr							sprites/hlcoop/ofch1.spr
 sprites/tongue.spr							sprites/hlcoop/tongue.spr
-sprites/1280/weapon_grapple_weapon.spr		sprites/hlcoop/1280/weapon_grapple_weapon.spr
-sprites/1280/weapon_grapple_weapon_s.spr	sprites/hlcoop/1280/weapon_grapple_weapon_s.spr
-sprites/2560/weapon_grapple_weapon.spr		sprites/hlcoop/2560/weapon_grapple_weapon.spr
-sprites/2560/weapon_grapple_weapon_s.spr	sprites/hlcoop/2560/weapon_grapple_weapon_s.spr
-sprites/weapon_grapple.txt					sprites/hlcoop/weapon_grapple.txt
+sprites/disp_ring.spr						sprites/hlcoop/disp_ring.spr
