@@ -376,6 +376,8 @@ weapons/distant/explode3.wav				hlcoop/weapons/distant/explode3.wav
 weapons/distant/explode4.wav				hlcoop/weapons/distant/explode4.wav
 weapons/distant/explode5.wav				hlcoop/weapons/distant/explode5.wav
 weapons/glock_reload.wav					hlcoop/weapons/glock_reload.wav
+weapons/pwrench_big_hit1.wav				hlcoop/weapons/pwrench_big_hit1.wav
+weapons/pwrench_big_hit2.wav				hlcoop/weapons/pwrench_big_hit2.wav
 weapons/pwrench_big_hitbod1.wav				hlcoop/weapons/pwrench_big_hitbod1.wav
 weapons/pwrench_big_hitbod2.wav				hlcoop/weapons/pwrench_big_hitbod2.wav
 weapons/pwrench_big_miss.wav				hlcoop/weapons/pwrench_big_miss.wav
