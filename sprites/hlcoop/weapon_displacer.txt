@@ -1,0 +1,17 @@
+16
+ammo			2560 2560/weapon_egon_ammo	0	0	72	72
+crosshair		2560 hlcoop/2560ofch1	144	0	72	72
+weapon			2560 hlcoop/2560/weapon_displacer_weapon	0	0	510	135
+weapon_s		2560 hlcoop/2560/weapon_displacer_weapon_s	0	0	510	135
+ammo			1280 1280/weapon_egon_ammo	0	0	48	48
+crosshair		1280 hlcoop/1280ofch1	96	0	48	48
+weapon			1280 hlcoop/1280/weapon_displacer_weapon	0	0	340	90
+weapon_s		1280 hlcoop/1280/weapon_displacer_weapon_s	0	0	340	90
+ammo			640 640hud7	0	96	24	24
+crosshair		640 hlcoop/ofch1	48	0	24	24
+weapon			640 hlcoop/640hudof01	0	180	170	45
+weapon_s		640 hlcoop/640hudof02	0	180	170	45
+ammo			320 320hud2	0	34	18	18
+crosshair		320 hlcoop/ofch1	48	0	24	24
+weapon			320 hlcoop/320hudof01	0	160	80	20
+weapon_s		320 hlcoop/320hudof01	0	180	80	20
