@@ -130,12 +130,16 @@ sprites/spore_exp_01.spr					sprites/hlcoop/spore_exp_01.spr
 sprites/spore_exp_c_01.spr					sprites/hlcoop/spore_exp_c_01.spr
 sprites/tinyspit.spr						sprites/hlcoop/tinyspit.spr
 sprites/tongue.spr							sprites/hlcoop/tongue.spr
+sprites/320hud2_of.spr						sprites/hlcoop/320hud2_of.spr
 sprites/320hudof01.spr						sprites/hlcoop/320hudof01.spr
+sprites/640hud7_of.spr						sprites/hlcoop/640hud7_of.spr
 sprites/640hudof01.spr						sprites/hlcoop/640hudof01.spr
 sprites/640hudof02.spr						sprites/hlcoop/640hudof02.spr
 sprites/640hudof03.spr						sprites/hlcoop/640hudof03.spr
 sprites/640hudof04.spr						sprites/hlcoop/640hudof04.spr
 sprites/1280ofch1.spr						sprites/hlcoop/1280ofch1.spr
+sprites/1280hud7_of.spr						sprites/hlcoop/1280hud7_of.spr
+sprites/1280hud7_of.spr						sprites/hlcoop/1280hud7_of.spr
 sprites/2560ofch1.spr						sprites/hlcoop/2560ofch1.spr
 sprites/ofch1.spr							sprites/hlcoop/ofch1.spr
 sprites/tongue.spr							sprites/hlcoop/tongue.spr
