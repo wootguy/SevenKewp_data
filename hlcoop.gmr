@@ -66,6 +66,7 @@ models/strooper_gibs.mdl			models/hlcoop_v2/strooper_gibs.mdl
 models/tor.mdl						models/hlcoop_v2/tor.mdl
 models/torf.mdl						models/hlcoop_v2/tor.mdl
 models/turret.mdl					models/hlcoop_v2/turret.mdl
+models/v_rpg.mdl					models/hlcoop_v2/v_rpg.mdl
 models/vgibs.mdl					models/hlcoop_v2/vgibs.mdl
 models/voltigore.mdl				models/hlcoop_v2/voltigore.mdl
 models/w_shock_rifle.mdl			models/hlcoop_v2/w_shock_rifle.mdl
