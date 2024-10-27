@@ -1,0 +1,13 @@
+// List plugin paths here that you want to be loaded for all maps.
+// Edits to this file take effect on map change.
+// The order of plugins matters. Earlier plugins can prevent later ones from executing hooks.
+
+// Paths are automatically prefixed with "plugins/server/" and can load from either
+// the valve or valve_downloads content folders.
+// For example, if you want to load the plugin located at
+//   'valve_downloads/plugins/server/AntiBlock.dll'
+// then you only need to write "Antiblock" on a blank line, as seen below.
+// Remove the "//" before "AntiBlock" if you actually want to load it.
+// Any lines beginning with "//" are ignored,
+
+// AntiBlock
