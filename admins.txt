@@ -1,0 +1,10 @@
+// List the Steam IDs of players you want to have admin abilities.
+// Add a * before the ID to give the player Owner status. Listen server hosts have this by default.
+// Edits to this file take effect on map change.
+// Any text after "//" is ignored.
+
+// Example player with admin status:
+// STEAM_0:0:123456789
+
+// Example player with owner status:
+// *STEAM_0:0:00000001
