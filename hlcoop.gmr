@@ -45,6 +45,8 @@ models/islavef.mdl					models/hlcoop_v2/islave.mdl
 models/kingpin.mdl					models/hlcoop_v2/kingpin.mdl
 models/massn.mdl					models/hlcoop_v2/massn.mdl
 models/miniturret.mdl				models/hlcoop_v2/miniturret.mdl
+models/mortar.mdl					models/hlcoop_v2/mortar.mdl
+models/mortarshell.mdl				models/hlcoop_v2/mortarshell.mdl
 models/nihilanth.mdl				models/hlcoop_v2/nihilanth.mdl
 models/osprey.mdl					models/hlcoop_v2/osprey.mdl
 models/otis.mdl						models/hlcoop_v2/otis.mdl
@@ -146,3 +148,4 @@ sprites/ofch1.spr							sprites/hlcoop/ofch1.spr
 sprites/tongue.spr							sprites/hlcoop/tongue.spr
 sprites/disp_ring.spr						sprites/hlcoop/disp_ring.spr
 sprites/voiceicon_m.spr						sprites/hlcoop/voiceicon_m.spr
+sprites/wep_smoke_01.spr					sprites/hlcoop/wep_smoke_01.spr
