@@ -1,0 +1,840 @@
+BA_BOMBOFF barney/of6a4_ba01
+
+BA_CANAL_DEATH1 barney/ba_canal_death1
+
+BA_CANAL_WOUND2 barney/ba_canal_wound1
+
+BA_CHAT1 barney/ba_friends
+
+BA_CLOSEONE barney/of6a4_ba02
+
+BA_DIE1 barney/ba_die1
+
+BA_HEY barney/ba_heeey
+
+BA_PAIN1 barney/ba_pain1
+
+BA_POWER1 barney/ba_power1
+BA_POWER2 barney/ba_power2
+BA_POWER3 barney/ba_power3
+BA_POWER4 barney/ba_power4
+
+BA_POWER_WOUND1 barney/ba_power_wound1
+BA_POWER_WOUND2 barney/ba_power_wound2
+
+BA_PQUEST0 barney/_comma
+
+BA_SEC1_D1 barney/ba_security1_door1
+BA_SEC1_D2 barney/ba_security1_door2
+BA_SEC1_D3 barney/ba_security1_door3
+
+BA_SEC2_ADMIN barney/ba_security2_admin
+
+BA_SEC2_DESK1 barney/ba_security2_desk1
+BA_SEC2_DESK2 barney/ba_security2_desk2
+
+BA_SEC2_NOPASS barney/ba_security2_nopass
+
+BA_SEC2_PASS barney/ba_security2_pass
+
+BA_SEC2_RANGE1 barney/ba_security2_range1
+BA_SEC2_RANGE2 barney/ba_security2_range2
+
+BA_STORAGEUNIT barney/of6a4_ba03
+
+BG_ANSWER0 bodyguard/_comma
+
+BG_ATTACK0 bodyguard/getshitoverwith
+
+BG_CUREA bodyguard/looklikeshit
+BG_CUREB bodyguard/hellhappenedyou
+BG_CUREC bodyguard/notaninjury
+
+BG_HELLO0 bodyguard/hello
+BG_HELLO1 bodyguard/whatsgoinon
+BG_HELLO2 bodyguard/someonescoming
+
+BG_IDLE0 bodyguard/pathetic
+BG_IDLE1 bodyguard/mondays
+BG_IDLE2 bodyguard/shownupdrunk
+BG_IDLE3 bodyguard/shootface
+BG_IDLE4 bodyguard/nicesuit
+
+BG_KILL0 bodyguard/whathelljoke
+BG_KILL1 bodyguard/layeggs
+BG_KILL2 bodyguard/ashestoashes
+
+BG_MAD0 bodyguard/bringiton
+BG_MAD1 bodyguard/heyoverhere
+BG_MAD2 bodyguard/primalroar
+
+BG_MORTAL0 bodyguard/justafleshwound
+
+BG_OK0 bodyguard/letsmove
+BG_OK1 bodyguard/babysitter
+BG_OK2 bodyguard/yougotit
+
+BG_POK0 bodyguard/imbusy
+BG_POK1 bodyguard/getlost
+BG_POK2 bodyguard/palimworking
+BG_POK3 bodyguard/onassignment
+
+BG_PQUEST0 bodyguard/_comma
+
+BG_QUESTION0 bodyguard/_comma
+
+BG_SCARED0 bodyguard/hellareyoudoing
+BG_SCARED1 bodyguard/knockitoff
+BG_SCARED2  bodyguard/backoff
+
+BG_SHOT0 bodyguard/hellaimingat
+BG_SHOT1 bodyguard/watchyourfire
+BG_SHOT2 bodyguard/wounded1
+
+BG_SMELL0 bodyguard/happenedhere
+
+BG_STARE0 bodyguard/_comma
+
+BG_STOP0 bodyguard/stop1
+BG_STOP1 bodyguard/stop2
+BG_STOP2 bodyguard/stop3
+
+BG_WAIT0 bodyguard/stop3
+BG_WAIT1 bodyguard/laterfellas
+BG_WAIT2 bodyguard/waitinrighthere
+BG_WAIT3 bodyguard/seeyalater
+
+BG_WOUND0 bodyguard/pain1
+BG_WOUND1 bodyguard/pain2
+BG_WOUND2 bodyguard/pain3
+BG_WOUND3 bodyguard/pain4
+
+BO_BECAREFUL ops/of6a2_bo01
+
+BO_CLEANUP ops/of2a5_bo01
+
+BO_COVERED ops/of6a2_bo02
+
+BO_GETDOWN ops/of6a2_bo03
+
+BO_PACKAGE ops/of2a5_bo02
+
+BO_SOONER ops/of2a5_bo03
+
+FG_ALERT0 fgrunt/alert
+FG_ALERT1 fgrunt/down
+FG_ALERT2 fgrunt/bogies
+FG_ALERT3 fgrunt/hostiles
+
+FG_ANSWER0 fgrunt/roger
+FG_ANSWER1 fgrunt/quiet
+FG_ANSWER2 fgrunt/no
+
+FG_ATTACK0 fgrunt/flank
+FG_ATTACK1 fgrunt/wantsome
+
+FG_ATTACK10 fgrunt/covering
+FG_ATTACK11 fgrunt/ass
+
+FG_ATTACK2 fgrunt/freaks
+FG_ATTACK3 fgrunt/recon
+FG_ATTACK4 fgrunt/rapidfire
+FG_ATTACK5 fgrunt/sweep
+FG_ATTACK6 fgrunt/suppressing
+FG_ATTACK7 fgrunt/marines
+FG_ATTACK8 fgrunt/moveup
+FG_ATTACK9 fgrunt/go
+
+FG_BITOFF fgrunt/of2a4_fg01
+
+FG_BLACKOPS fgrunt/of6a1_fg01
+
+FG_BRIEFING fgrunt/of2a6_fg01
+
+FG_CHARGE0 fgrunt/go
+FG_CHARGE1 fgrunt/getsome
+FG_CHARGE2 fgrunt/move
+
+FG_CHECK0 fgrunt/check
+FG_CHECK1 fgrunt/zone
+
+FG_CLEAR0 fgrunt/clear
+FG_CLEAR1 fgrunt/area
+
+FG_COOPER fgrunt/of1a6_fg01
+
+FG_COVER0 fgrunt/clear
+FG_COVER1 fgrunt/cover
+FG_COVER2 fgrunt/staydown
+
+FG_CURE1 fgrunt/needmedic
+FG_CURE2 fgrunt/hurt
+FG_CURE3 fgrunt/hell
+FG_CURE4 fgrunt/feel
+
+FG_DAMNWALLS fgrunt/of5a3_fg02
+
+FG_DOWNTHERE fgrunt/of2a5_fg01
+
+FG_EVAC fgrunt/of5a3_fg01
+
+FG_FIREPOWER fgrunt/of5a3_fg03
+
+FG_FIXEDUP fgrunt/of2a5_fg03
+
+FG_GETOUT fgrunt/of2a1_fg01
+
+FG_GREN0 fgrunt/incoming
+FG_GREN1 fgrunt/grenade
+
+FG_GROUPYES fgrunt/yessir
+
+FG_HELLO0 fgrunt/sir_01
+FG_HELLO1 fgrunt/tosee
+FG_HELLO2 fgrunt/hellosir
+
+FG_IDLE0 fgrunt/guard
+FG_IDLE1 fgrunt/mission
+
+FG_IDLE10 fgrunt/dogs
+FG_IDLE11 fgrunt/disney
+FG_IDLE12 fgrunt/checkrecon
+
+FG_IDLE2 fgrunt/babysitting
+FG_IDLE3 fgrunt/coverup
+FG_IDLE4 fgrunt/now
+FG_IDLE5 fgrunt/seensquad
+FG_IDLE6 fgrunt/short
+FG_IDLE7 fgrunt/outof
+FG_IDLE8 fgrunt/lost
+FG_IDLE9 fgrunt/fubar
+
+FG_KEEPMOVING fgrunt/of2a6_fg03
+
+FG_KILL0 fgrunt/oneshot
+FG_KILL1 fgrunt/wantsome
+FG_KILL2 fgrunt/sniper
+FG_KILL3 fgrunt/tag
+FG_KILL4 fgrunt/corporal
+FG_KILL5 fgrunt/talking
+FG_KILL6 fgrunt/take
+FG_KILL7 fgrunt/sniper
+FG_KILL8 fgrunt/check
+FG_KILL9 fgrunt/area
+
+FG_LETSGO fgrunt/of6a1_fg02
+
+FG_MAD0 fgrunt/ass
+FG_MAD1 fgrunt/mister
+
+FG_MADEIT fgrunt/of1a6_fg02
+
+FG_MAKEIT fgrunt/makeit
+
+FG_MASKFREAKS fgrunt/of5a1_fg01
+
+FG_MESSAROUND fgrunt/of1a6_fg04
+
+FG_MONSTER0 fgrunt/hostiles
+FG_MONSTER1 fgrunt/bogies
+
+FG_MORTAL0 fgrunt/hitbad
+FG_MORTAL1 fgrunt/critical
+FG_MORTAL2 fgrunt/sdamage
+
+FG_NEEDMEDIC fgrunt/of2a5_fg02
+
+FG_OK0 fgrunt/damage
+FG_OK1 fgrunt/six
+FG_OK2 fgrunt/moving
+FG_OK3 fgrunt/gotit
+FG_OK4 fgrunt/hellout
+FG_OK5 fgrunt/sir
+FG_OK6 fgrunt/right
+FG_OK7 fgrunt/command
+FG_OK8 fgrunt/notfail
+FG_OK9 fgrunt/yes
+
+FG_OWNASSES fgrunt/of2a4_fg02
+
+FG_PATIENT fgrunt/of5a1_fg02
+
+FG_POK0 fgrunt/hell
+FG_POK1 fgrunt/sir_01
+FG_POK2 fgrunt/hellosir
+FG_POK3 fgrunt/corporal_01
+
+FG_QUEST0 fgrunt/bfeeling
+FG_QUEST1 fgrunt/current
+
+FG_QUESTION0 fgrunt/seensquad
+FG_QUESTION1 fgrunt/current
+FG_QUESTION2 fgrunt/coverup
+FG_QUESTION3 fgrunt/chicken
+FG_QUESTION4 fgrunt/charge
+FG_QUESTION5 fgrunt/bfeeling
+
+FG_SAMETEAM fgrunt/of2a6_fg02
+
+FG_SCARED0 fgrunt/hearsome
+FG_SCARED1 fgrunt/hear
+
+FG_SHOT0 fgrunt/check
+FG_SHOT1 fgrunt/wantsome
+FG_SHOT2 fgrunt/zone
+FG_SHOT3 fgrunt/watchit
+FG_SHOT4 fgrunt/watchfire
+FG_SHOT5 fgrunt/friendly
+
+FG_STANDBACK fgrunt/of5a3_fg05
+
+FG_STANDOFF fgrunt/of5a3_fg04
+
+//FG_STOP0 fgrunt/sorry // fgrunt doesn't have a "sorry" sound. This line comes from op4.
+FG_STOP1 fgrunt/post
+FG_STOP2 fgrunt/stay
+FG_STOP3 fgrunt/leave
+
+FG_SUPRISE fgrunt/of5a1_fg04
+
+FG_TABLES fgrunt/of5a1_fg03
+
+FG_TALK fgrunt/of1a6_fg05
+
+FG_TAUNT0 fgrunt/mister
+FG_TAUNT1 fgrunt/nothing
+FG_TAUNT2 fgrunt/oneshot
+FG_TAUNT3 fgrunt/getsome
+FG_TAUNT4 fgrunt/corners
+FG_TAUNT5 fgrunt/backup
+
+FG_THANKSDOC fgrunt/of2a5_fg04
+
+FG_THROW0 fgrunt/fire
+FG_THROW1 fgrunt/grenade
+
+FG_TOHANGAR fgrunt/of1a6_fg03
+
+FG_WAIT0 fgrunt/secure
+FG_WAIT1 fgrunt/orders
+FG_WAIT2 fgrunt/scout
+FG_WAIT3 fgrunt/guardduty
+
+FG_WIPEDOUT fgrunt/of3a4_fg01
+
+FG_WOUND0 fgrunt/imhit
+FG_WOUND1 fgrunt/fwound
+FG_WOUND2 fgrunt/makeit
+
+FG_YES fgrunt/siryessir
+
+FG_YOUWITHUS fgrunt/of2a4_fg03
+
+HA_SCREAM1 scientist/sci_fear10
+
+HAMSOUNDS hgrunt/gr_alert1. gr_idle1
+
+INTRO_DR_L1 drill/intro01
+INTRO_DR_L2 drill/intro02
+INTRO_DR_L3 drill/intro03
+
+INTRO_FG1_L1 fgrunt/intro_FG01
+INTRO_FG1_L2 fgrunt/intro_FG03
+INTRO_FG1_L3 fgrunt/intro_FG05
+INTRO_FG1_L4 fgrunt/intro_FG07
+INTRO_FG1_L5 fgrunt/intro_FG09
+INTRO_FG1_L6 fgrunt/intro_FG11
+INTRO_FG1_L7 fgrunt/intro_FG14
+INTRO_FG1_L8 fgrunt/intro_FG15
+
+INTRO_FG2_L1 fgrunt/intro_FG02
+INTRO_FG2_L2 fgrunt/intro_FG04
+INTRO_FG2_L3 fgrunt/intro_FG06
+INTRO_FG2_L4 fgrunt/intro_fg12(e31) intro_FG08
+INTRO_FG2_L5 fgrunt/intro_FG10
+INTRO_FG2_L6 fgrunt/intro_FG12
+INTRO_FG2_L7 fgrunt/intro_FG16
+
+INTRO_FG3_L1 fgrunt/intro_FG13
+INTRO_FG3_L2 fgrunt/intro_FG17
+
+INTRO_FG4_L1 fgrunt/intro_FG18
+INTRO_FG4_L2 fgrunt/intro_FG19
+
+MG_HEAL0 fgrunt/sting
+MG_HEAL1 fgrunt/onepiece
+MG_HEAL2 fgrunt/fwound
+
+MG_NOTHEAL0 fgrunt/nohealth
+
+NEWSECTSENT vox/intruder alert. all authorized personnel, evacuate immediately.
+
+NEWSECTSENT2 vox/clearance in five. four. three. two. goodbye
+
+OF1A5_BARN1 barney/OF1A5_BA01
+OF1A5_BARN2 barney/OF1A5_BA02
+
+OF7A0_GM01 gman/of7a0_gm01
+OF7A0_GM02 gman/of7a0_gm02
+OF7A0_GM03 gman/of7a0_gm03
+OF7A0_GM04 gman/of7a0_gm04
+
+OF_SC_POK0 scientist/please
+OF_SC_POK1 scientist/advance
+OF_SC_POK2 scientist/sci_fear12
+OF_SC_POK3 scientist/sci_fear14
+OF_SC_POK4 scientist/scream13
+OF_SC_POK5 scientist/scream14
+OF_SC_POK6 scientist/scream15
+OF_SC_POK7 scientist/scream12
+OF_SC_POK8 scientist/scream08
+
+OSP1_HGRUNT_A1 mg386/voice/Young_Grunt_a
+OSP1_HGRUNT_A2 mg386/voice/Young_Grunt_b
+
+OSP1_HGRUNT_B1 mg386/voice/Seasoned_Grunt_a
+OSP1_HGRUNT_B2 mg386/voice/Seasoned_Grunt_b
+
+OSP1_SERGEANT1 mg386/voice/Drill_Sergeant
+
+OSP1_SERGEANT_A mg386/voice/OSP1_MISSION_00
+OSP1_SERGEANT_B mg386/voice/OSP1_MISSION_01
+OSP1_SERGEANT_C mg386/voice/OSP1_MISSION_02
+OSP1_SERGEANT_D mg386/voice/OSP1_MISSION_03
+OSP1_SERGEANT_E mg386/voice/OSP1_MISSION_04
+OSP1_SERGEANT_F mg386/voice/OSP1_MISSION_05
+OSP1_SERGEANT_G mg386/voice/OSP1_MISSION_06
+OSP1_SERGEANT_H mg386/voice/OSP1_MISSION_07
+OSP1_SERGEANT_I mg386/voice/OSP1_MISSION_08
+OSP1_SERGEANT_J mg386/voice/OSP1_MISSION_09
+OSP1_SERGEANT_K mg386/voice/OSP1_MISSION_10
+OSP1_SERGEANT_L mg386/voice/OSP1_MISSION_11
+OSP1_SERGEANT_M mg386/voice/OSP1_MISSION_12
+OSP1_SERGEANT_N mg386/voice/OSP1_MISSION_13
+OSP1_SERGEANT_O mg386/voice/OSP1_MISSION_14
+OSP1_SERGEANT_P mg386/voice/OSP1_MISSION_15
+
+OT_1 otis/ot_intro_hello1
+OT_2 otis/ot_intro_hello2
+OT_3 otis/ot_intro_seeya
+
+OT_ANSWER0 otis/yes
+OT_ANSWER1 otis/yessir
+
+OT_ANSWER10 otis/dontguess
+OT_ANSWER12 otis/nope
+OT_ANSWER13 otis/nosir
+OT_ANSWER14 otis/dontask
+OT_ANSWER15 otis/suppose
+OT_ANSWER16 otis/hell
+OT_ANSWER17 otis/cantfigure
+OT_ANSWER18 otis/maybe
+OT_ANSWER19 otis/talkmuch
+
+OT_ANSWER2 otis/youbet
+
+OT_ANSWER20 otis/dejavu
+
+OT_ANSWER3 otis/alright
+OT_ANSWER4 otis/yup
+OT_ANSWER5 otis/yeah
+OT_ANSWER6 otis/noway
+OT_ANSWER7 otis/doubt
+OT_ANSWER8 otis/breath
+OT_ANSWER9 otis/no
+
+OT_ATTACK0 otis/behind
+OT_ATTACK1 otis/leftovers
+OT_ATTACK2 otis/yourback
+OT_ATTACK3 otis/die
+
+OT_CHAT1 otis/hell
+
+OT_CUREA otis/scar
+OT_CUREB otis/insurance
+OT_CUREC otis/medic
+
+OT_FINDMORE otis/of1a1_ot04
+
+OT_FOUNDVEST otis/of1a1_ot02
+
+OT_GOODLUCK otis/of1a1_ot03
+
+OT_HEAR0 otis/hearsomething
+OT_HEAR1 otis/soundsbad
+
+OT_HELLO0 otis/hello
+OT_HELLO1 otis/soldier
+OT_HELLO2 otis/hiya
+OT_HELLO3 otis/hey
+
+OT_IDLE0 otis/mom
+OT_IDLE1 otis/aliens
+OT_IDLE2 otis/wuss
+OT_IDLE3 otis/bridge
+OT_IDLE4 otis/closet
+OT_IDLE5 otis/cousin
+OT_IDLE6 otis/mall
+
+OT_KILL0 otis/gotone
+OT_KILL1 otis/another
+OT_KILL2 otis/buttugly
+OT_KILL3 otis/seethat
+OT_KILL4 otis/close
+OT_KILL5 otis/firepl
+OT_KILL6 otis/bring
+
+OT_LEFTOVERS otis/leftovers
+
+OT_MAD0 otis/bully
+OT_MAD1 otis/somuch
+OT_MAD2 otis/dontmake
+OT_MAD3 otis/tomb
+
+OT_MISC0 otis/stupidmachines
+OT_MISC1 otis/quarter
+
+OT_MMMM otis/mmmm
+
+OT_MORTAL0 otis/imdead
+OT_MORTAL1 otis/hitbad
+
+OT_NOTOPEN otis/of1a1_ot01
+
+OT_OK0 otis/reputation
+OT_OK1 otis/live
+OT_OK2 otis/together
+OT_OK3 otis/letsgo
+OT_OK4 otis/diealone
+OT_OK5 otis/joinyou
+OT_OK6 otis/teamup
+
+OT_QUESTION0 otis/beer
+OT_QUESTION1 otis/rightdirection
+OT_QUESTION2 otis/getanyworse
+OT_QUESTION3 otis/gladof
+OT_QUESTION4 otis/aliencombat
+OT_QUESTION5 otis/somethingmoves
+OT_QUESTION6 otis/noise
+
+OT_SCARED0 otis/donthurtem
+OT_SCARED1 otis/leavealone
+
+OT_SCREAMING otis/of1a5_ot01
+
+OT_SHOT0 otis/friends
+OT_SHOT1 otis/chump
+OT_SHOT2 otis/watchit
+OT_SHOT3 otis/damn
+OT_SHOT4 otis/quitit
+OT_SHOT5 otis/onry
+
+OT_SMELL0 otis/ass
+OT_SMELL1 otis/chili
+OT_SMELL2 otis/janitor
+
+OT_TELLSECRET otis/of6a3_ot01
+
+OT_TRANSPORTER otis/of3a2_ot01
+
+OT_TRUSTYA otis/of2a6_ot01
+
+OT_WAIT0 otis/help
+OT_WAIT1 otis/go_on
+OT_WAIT2 otis/slowingyoudown
+OT_WAIT3 otis/illwait
+OT_WAIT4 otis/seeya
+OT_WAIT5 otis/standguard
+OT_WAIT6 otis/notalone
+
+OT_WOUND0 otis/imhit
+OT_WOUND1 otis/virgin
+
+RB_ALERT0 vox/target acquired
+RB_ALERT1 vox/alert, unauthorized personnel
+
+RB_ANSWER0 vox/status green
+//RB_ANSWER1 vox/status is green, commander // vox doesn't have a "commander" sound. This line comes from sven.
+RB_ANSWER1 vox/status is green
+
+RB_CHARGE0 vox/eliminate ing threat
+RB_CHARGE1 vox/move(t50) ing, in
+
+RB_CHECK0 vox/status check
+RB_CHECK1 vox/check in
+RB_CHECK2 vox/please report status
+
+RB_CLEAR0 vox/area is clear
+RB_CLEAR1 vox/no threat detected
+RB_CLEAR2 vox/search ing sector
+
+RB_COVER0 vox/dadeda
+RB_COVER1 vox/bizwarn
+
+RB_GREN0 vox/danger bizwarn i e d detected, evacuate
+RB_GREN1 vox/dadeda emergency evacuate
+
+RB_IDLE0 vox/all systems nominal
+RB_IDLE1 vox/communication relay is green
+RB_IDLE2 vox/systems check is green
+RB_IDLE3 vox/search ing sector
+
+RB_MONST0 vox/alert, hostile threat
+RB_MONST1 vox/target acquired
+RB_MONST2 vox/alien hostile sight ed
+
+RB_QUEST0 vox/team report status
+RB_QUEST1 vox/report status
+
+RB_TAUNT0 vox/we have you surrounded
+RB_TAUNT1 vox/defense system activated
+
+RB_THROW0 vox/buzzwarn fire in the hole
+
+RD_BOOT0 radio/bootcamp0
+
+RD_LEFTBEHIND radio/of2a3_rd01
+
+RD_MAYDAY radio/of2a5_rd01
+
+RD_MORARFIELD radio/of6A2_rd01
+
+RD_RALLYPOINT radio/of1a6_rd01
+
+RD_SOMEWORM radio/of4a3_rd01
+
+RD_TRANSIT radio/of1a2_rd02
+
+RD_YOUREALIVE radio/of1a2_rd01
+
+RO_INSIDE_CAR bshift/rosenberg/ro_inside_car
+
+RO_LETSTRYTHIS bshift/rosenberg/ro_letstrythis
+
+RO_NULL common/null
+
+RO_OK7 bshift/rosenberg/ro_ok7
+
+RO_TELE_ALMOST1 bshift/rosenberg/ro_tele_almost1
+RO_TELE_ALMOST2 bshift/rosenberg/ro_tele_almost2
+
+RO_TELE_FINAL01 bshift/rosenberg/ro_tele_final01
+RO_TELE_FINAL02 bshift/rosenberg/ro_tele_final02
+RO_TELE_FINAL03 bshift/rosenberg/ro_tele_final03
+RO_TELE_FINAL04 bshift/rosenberg/ro_tele_final04
+RO_TELE_FINAL05 bshift/rosenberg/ro_tele_final05
+RO_TELE_FINAL06 bshift/rosenberg/ro_tele_final06
+RO_TELE_FINAL07 bshift/rosenberg/ro_tele_final07
+RO_TELE_FINAL08 bshift/rosenberg/ro_tele_final08
+RO_TELE_FINAL09 bshift/rosenberg/ro_tele_final09
+
+RO_TELE_FINAL10 bshift/rosenberg/ro_tele_final10
+RO_TELE_FINAL11 bshift/rosenberg/ro_tele_final11
+RO_TELE_FINAL12 bshift/rosenberg/ro_tele_final12
+RO_TELE_FINAL13 bshift/rosenberg/ro_tele_final13
+RO_TELE_FINAL14 bshift/rosenberg/ro_tele_final14
+RO_TELE_FINAL15 bshift/rosenberg/ro_tele_final15
+RO_TELE_FINAL16 bshift/rosenberg/ro_tele_final16
+RO_TELE_FINAL17 bshift/rosenberg/ro_tele_final17
+RO_TELE_FINAL18 bshift/rosenberg/ro_tele_final18
+RO_TELE_FINAL19 bshift/rosenberg/ro_tele_final19
+
+RO_TELE_FINAL20 bshift/rosenberg/ro_tele_final20
+RO_TELE_FINAL21 bshift/rosenberg/ro_tele_final21
+RO_TELE_FINAL22 bshift/rosenberg/ro_tele_final22
+RO_TELE_FINAL23 bshift/rosenberg/ro_tele_final23
+RO_TELE_FINAL24 bshift/rosenberg/ro_tele_final24
+RO_TELE_FINAL25 bshift/rosenberg/ro_tele_final25
+RO_TELE_FINAL26 bshift/rosenberg/ro_tele_final26
+RO_TELE_FINAL27 bshift/rosenberg/ro_tele_final27
+RO_TELE_FINAL28 bshift/rosenberg/ro_tele_final28
+
+RO_TELE_POWER1 bshift/rosenberg/ro_tele_power1
+RO_TELE_POWER2 bshift/rosenberg/ro_tele_power2
+RO_TELE_POWER3 bshift/rosenberg/ro_tele_power3
+RO_TELE_POWER4 bshift/rosenberg/ro_tele_power4
+RO_TELE_POWER5 bshift/rosenberg/ro_tele_power5
+
+RO_TELE_XEN01 bshift/rosenberg/ro_tele_xen01
+RO_TELE_XEN02 bshift/rosenberg/ro_tele_xen02
+
+RO_TELE_XEN03a bshift/rosenberg/ro_tele_xen03a
+RO_TELE_XEN03b bshift/rosenberg/ro_tele_xen03b
+
+RO_TELE_XEN04 bshift/rosenberg/ro_tele_xen04
+RO_TELE_XEN05 bshift/rosenberg/ro_tele_xen05
+RO_TELE_XEN06 bshift/rosenberg/ro_tele_xen06
+RO_TELE_XEN07 bshift/rosenberg/ro_tele_xen07
+RO_TELE_XEN08 bshift/rosenberg/ro_tele_xen08
+RO_TELE_XEN09 bshift/rosenberg/ro_tele_xen09
+
+RO_TELE_XEN10 bshift/rosenberg/ro_tele_xen10
+RO_TELE_XEN12 bshift/rosenberg/ro_tele_xen12
+
+RO_TO_TELEPORT bshift/rosenberg/ro_to_teleport
+
+RO_YARD_ACCESS1 bshift/rosenberg/ro_yard_access1
+
+RO_YARD_ALMOST3 bshift/rosenberg/ro_yard_almost3
+
+RO_YARD_NOTIME1 bshift/rosenberg/ro_yard_notime1
+
+RO_YARD_ROSE1 bshift/rosenberg/ro_yard_rose1
+RO_YARD_ROSE2 bshift/rosenberg/ro_yard_rose2
+RO_YARD_ROSE3 bshift/rosenberg/ro_yard_rose3
+RO_YARD_ROSE4 bshift/rosenberg/ro_yard_rose4
+
+RO_YARD_SCANNER bshift/rosenberg/ro_yard_scanner
+
+SC_ACC_DIE scientist/sci_pain1
+
+SC_ACC_SCREAM1 scientist/scream22
+SC_ACC_SCREAM2 scientist/scream13
+
+SC_ACCIDENT1 scientist/sc_accident1
+SC_ACCIDENT2 scientist/sc_accident2
+SC_ACCIDENT3 scientist/sc_accident3
+
+SC_BETTERLUCK scientist/of1a1_sc04
+
+SC_CANALS1 scientist/sc_canals1
+SC_CANALS2 scientist/sc_canals2
+SC_CANALS3 scientist/sc_canals3
+SC_CANALS4 scientist/sc_canals4
+
+SC_COUGH scientist/cough
+
+SC_COUNTING1 scientist/of1a1_sc01
+SC_COUNTING2 scientist/of1a1_sc02
+
+SC_DEADALLY0 scientist/startle1, startle5
+SC_DEADALLY1 scientist/startle4
+SC_DEADALLY2 scientist/startle6
+SC_DEADALLY3 scientist/startle7
+SC_DEADALLY4 scientist/startle3 startle8
+SC_DEADALLY5 scientist/startle2 startle9
+
+SC_FREEMAN scientist/of1a6_sc01
+
+SC_GETALONG scientist/getalong
+
+SC_GMORNING scientist/c1a0_sci_gm
+
+SC_GOFREEMAN scientist/c3a2_sci_portopen
+
+SC_GONOMEHINT scientist/of1a1_sc05
+
+SC_GRAPPLETAPE scientist/of4a1_sc01
+
+SC_HELPACCESS scientist/of3a4_sc02
+
+SC_HIDMYSELF scientist/of2a3_sc01
+
+SC_HURRY scientist/c3a2_sci_forever
+
+SC_IHAVENT scientist/of1a5_sc01
+
+SC_M1 scientist/alright
+SC_M2 scientist/thiswillhelp
+SC_M3 scientist/letmehelp
+SC_M4 scientist/okihope
+SC_M5 scientist/letstrythis
+
+SC_MAINT scientist/sc_maint
+
+SC_NOTAGAIN scientist/of3a2_sc02
+
+SC_PLEASE scientist/please
+
+SC_POWER1 scientist/sc_power1
+SC_POWER2 scientist/sc_power2
+
+SC_POWER_ALT1 scientist/sc_power_alt1
+SC_POWER_ALT2 scientist/sc_power_alt2
+
+SC_POWER_WOUND1 scientist/sc_power_wound1
+SC_POWER_WOUND2 scientist/sc_power_wound2
+
+SC_PUTDOWN scientist/of3a2_sc01
+
+SC_REVIVE1 scientist/alright letstrythis
+SC_REVIVE2 scientist/youneedmedic
+SC_REVIVE3 scientist/youwounded
+SC_REVIVE4 scientist/heal5
+SC_REVIVE5 scientist/letstrythis
+
+SC_RUNAWAY scientist/scream07
+
+SC_RUNAWAY2 scientist/scream01
+
+SC_RUNSCREAM scientist/scream22
+
+// removed because HL doesn't have this and it's just this one thing
+//SC_SCREAM15 scientist/scream07
+
+SC_SEC2_ADMIN1 scientist/sc_sec2_admin1
+SC_SEC2_ADMIN2 scientist/sc_sec2_admin2
+
+SC_SEENSPECIES scientist/of1a5_sc02
+
+SC_TELE_WORK1 scientist/sc_tele_work1
+SC_TELE_WORK2 scientist/sc_tele_work2
+
+SC_TELE_XEN1 scientist/sc_tele_xen1
+
+SC_TRAPPED scientist/of3a4_sc01
+
+SC_WHATSWORSE scientist/of2a2_sc01
+
+SC_WOKENUP scientist/of1a1_sc03
+
+SC_YARD_BOX1 scientist/sc_yard_box1
+
+SC_YARD_BOX1A scientist/sc_yard_box1a
+SC_YARD_BOX1B scientist/sc_yard_box1b
+
+SC_YARD_BOX2 scientist/sc_yard_box2
+SC_YARD_BOX3 scientist/sc_yard_box3
+SC_YARD_BOX4 scientist/sc_yard_box4
+
+SC_YARD_WOUND1 scientist/sc_yard_wound1
+SC_YARD_WOUND2 scientist/sc_yard_wound2
+
+ST_ALERT0 shocktrooper/dit dit
+ST_ALERT1 shocktrooper/dit kss kss
+ST_ALERT2 shocktrooper/kss dit dit kss
+
+ST_ANSWER0 shocktrooper/dup dup
+
+ST_CHARGE0 shocktrooper/mub puh mub dit dit
+
+ST_CHECK0 shocktrooper/kss kss
+
+ST_CLEAR0 shocktrooper/dup blis dup
+
+ST_COVER0 shocktrooper/ka ga blis blis ka
+
+ST_GREN0 shocktrooper/kss kyur kiml
+
+ST_IDLE0 shocktrooper/ku kur ku
+
+ST_MONST0 shocktrooper/pur thirv pur kss kss
+
+ST_QUEST0 shocktrooper/puh pur hyu ka
+
+ST_TAUNT0 shocktrooper/kiml kiml
+
+ST_THROW0 shocktrooper/kss wirt ras
+
+TG_CUTIT fgrunt/of5a3_fg01
+
+TG_NOTOPEN0 fgrunt/blocked
+TG_NOTOPEN1 fgrunt/thick
+TG_NOTOPEN2 fgrunt/cutting
+TG_NOTOPEN3 fgrunt/situations
+
+TG_OPEN0 fgrunt/locksmith
+TG_OPEN1 fgrunt/stand
+TG_OPEN2 fgrunt/through
+
+
