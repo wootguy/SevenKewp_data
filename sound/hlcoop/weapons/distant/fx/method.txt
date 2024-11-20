@@ -1,0 +1,3 @@
+low pass 400 24db
+amplify -15
+add crack
