@@ -124,6 +124,9 @@ sprites/2560/weapon_sporelauncher_weapon_s.spr	sprites/hlcoop/2560/weapon_sporel
 sprites/2560/weapon_sporelauncher_ammo.spr		sprites/hlcoop/2560/weapon_sporelauncher_ammo.spr
 sprites/weapon_sporelauncher.txt				sprites/hlcoop/weapon_sporelauncher.txt
 
+sprites/weapon_inventory.spr				sprites/hlcoop/weapon_inventory.spr
+sprites/weapon_inventory.txt				sprites/hlcoop/weapon_inventory.txt
+
 sprites/shraphit.spr						sprites/hlcoop/shraphit.spr
 sprites/blood_chnk.spr						sprites/hlcoop/blood_chnk.spr
 sprites/muzzle_shock.spr					sprites/hlcoop/muzzle_shock.spr
