@@ -1,0 +1,4 @@
+- apply black and white
+- use highlights/shadows a few times
+- use "glow" for the selected icon
+- create an overlay from the scanline background and set opacity to 80, delete dark lines
