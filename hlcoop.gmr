@@ -127,6 +127,12 @@ sprites/weapon_sporelauncher.txt				sprites/hlcoop/weapon_sporelauncher.txt
 sprites/weapon_inventory.spr				sprites/hlcoop/weapon_inventory.spr
 sprites/weapon_inventory.txt				sprites/hlcoop/weapon_inventory.txt
 
+models/w_pmedkit.mdl						models/hlcoop_v2/w_pmedkit.mdl
+models/p_medkit.mdl							models/hlcoop_v2/p_medkit.mdl
+models/v_medkit.mdl							models/hlcoop_v2/v_medkit.mdl
+sprites/weapon_medkit.spr					sprites/hlcoop/weapon_medkit.spr
+sprites/weapon_medkit.txt					sprites/hlcoop/weapon_medkit.txt
+
 sprites/shraphit.spr						sprites/hlcoop/shraphit.spr
 sprites/blood_chnk.spr						sprites/hlcoop/blood_chnk.spr
 sprites/muzzle_shock.spr					sprites/hlcoop/muzzle_shock.spr
