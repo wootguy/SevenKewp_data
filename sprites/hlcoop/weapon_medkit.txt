@@ -1,0 +1,10 @@
+9
+ammo			2560 hlcoop/weapon_medkit	340	270	72	72
+weapon			2560 hlcoop/weapon_medkit	0	0	510	135
+weapon_s		2560 hlcoop/weapon_medkit	0	135	510	135
+ammo			1280 hlcoop/weapon_medkit	412	270	48	48
+weapon			1280 hlcoop/weapon_medkit	0	270	340	90
+weapon_s		1280 hlcoop/weapon_medkit	0	360	340	90
+ammo			640 hlcoop/weapon_medkit	460	270	24	24
+weapon			640 hlcoop/weapon_medkit	0	450	170	45
+weapon_s		640 hlcoop/weapon_medkit	170	450	170	45
