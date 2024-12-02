@@ -1,0 +1,3 @@
+paint.net hue shift:
++170 for body
++110 for eyes

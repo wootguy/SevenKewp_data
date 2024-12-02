@@ -65,6 +65,7 @@ models/spore.mdl					models/hlcoop_v2/spore.mdl
 models/spore_ammo.mdl				models/hlcoop_v2/spore_ammo.mdl
 models/strooper.mdl					models/hlcoop_v2/strooper.mdl
 models/strooper_gibs.mdl			models/hlcoop_v2/strooper_gibs.mdl
+models/stukabat.mdl					models/hlcoop_v2/stukabat.mdl
 models/tor.mdl						models/hlcoop_v2/tor.mdl
 models/torf.mdl						models/hlcoop_v2/tor.mdl
 models/turret.mdl					models/hlcoop_v2/turret.mdl
