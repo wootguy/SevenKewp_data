@@ -136,6 +136,7 @@ sprites/weapon_medkit.txt					sprites/hlcoop/weapon_medkit.txt
 
 sprites/shraphit.spr						sprites/hlcoop/shraphit.spr
 sprites/blood_chnk.spr						sprites/hlcoop/blood_chnk.spr
+sprites/boss_glow.spr						sprites/hlcoop/boss_glow.spr
 sprites/muzzle_shock.spr					sprites/hlcoop/muzzle_shock.spr
 sprites/puff1.spr							sprites/hlcoop/puff1.spr
 sprites/spike_trail.spr						sprites/hlcoop/spike_trail.spr
