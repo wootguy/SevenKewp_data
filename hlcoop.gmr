@@ -78,6 +78,8 @@ models/weather/rain0_128.bsp		models/hlcoop_v2/weather/rain0_128.bsp
 models/weather/rain1_128.bsp		models/hlcoop_v2/weather/rain1_128.bsp
 models/weather/rain2_128.bsp		models/hlcoop_v2/weather/rain2_128.bsp
 models/weather/rain3_128.bsp		models/hlcoop_v2/weather/rain3_128.bsp
+models/weather/snow0_128.bsp		models/hlcoop_v2/weather/snow0_128.bsp
+models/weather/snow1_128.bsp		models/hlcoop_v2/weather/snow1_128.bsp
 models/zombie.mdl					models/hlcoop_v2/zombie.mdl
 models/zombie_barney.mdl			models/hlcoop_v2/zombie_barney.mdl
 models/zombie_soldier.mdl			models/hlcoop_v2/zombie_soldier.mdl
