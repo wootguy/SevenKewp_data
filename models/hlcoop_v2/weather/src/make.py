@@ -142,7 +142,6 @@ def gen_textures():
 		file.write("};\n")
 
 def gen_bodies():
-	global offset_z
 	global pad
 	
 	sz = 16*pad
@@ -162,7 +161,6 @@ def gen_qc(num_bodies, num_pal):
 		file.write('$cd "."\n')
 		file.write('$cdtexture "."\n')
 		file.write('$scale 1.0\n\n')
-		file.write('$origin 0 0 %d\n\n' % offset_z)
 		
 		file.write('$bodygroup body\n{\n')
 		for i in range(0, num_bodies):
@@ -180,6 +178,8 @@ def gen_qc(num_bodies, num_pal):
 		file.write('$sequence idle "idle" fps 1 ACT_IDLE 1\n')
 		for d in sphere_dists:
 			file.write('$sequence dist_%d "dist_%d" fps 1 ACT_IDLE 1\n' % (d,d))
+		for d in sphere_dists:
+			file.write('$sequence dist_%d_offset "dist_%d_offset" fps 1 ACT_IDLE 1\n' % (d,d))
 
 def gen_bones(file_path, file_out):
 	vertices = set()
@@ -294,13 +294,14 @@ hue_count = 60
 # skeleton will be scaled by these amounts, with an animation for each scale. Keyframe 0 = scale 1, keyframe 1 = scale
 sphere_dists = [256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536, 131072]
 
-# z offset applied so that EF_BRIGHTLIGHT effect is hidden
-offset_z = 0
+# z offset for fixing rendering bugs
+offset_z = 300
 
 bones = gen_bones('fog.smd', 'fog_bones.smd')
 gen_anim('idle.smd', bones, 1.0, 0)
 for d in sphere_dists:
 	gen_anim('dist_%d.smd' % d, bones, d, 0)
+	gen_anim('dist_%d_offset.smd' % d, bones, d, offset_z)
 
 gen_textures()
 gen_bodies()
