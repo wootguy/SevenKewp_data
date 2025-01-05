@@ -72,6 +72,7 @@ models/turret.mdl					models/hlcoop_v2/turret.mdl
 models/v_rpg.mdl					models/hlcoop_v2/v_rpg_v2.mdl
 models/vgibs.mdl					models/hlcoop_v2/vgibs.mdl
 models/voltigore.mdl				models/hlcoop_v2/voltigore.mdl
+models/w_saw_clip.mdl				models/hlcoop_v2/w_saw_clip.mdl
 models/w_shock_rifle.mdl			models/hlcoop_v2/w_shock_rifle.mdl
 models/w_squeak.mdl					models/hlcoop_v2/w_squeak.mdl
 models/weather/rain0_128.bsp		models/hlcoop_v2/weather/rain0_128.bsp
