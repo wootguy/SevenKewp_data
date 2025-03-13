@@ -169,3 +169,5 @@ sprites/disp_ring.spr						sprites/hlcoop/disp_ring.spr
 sprites/rain_splash.spr						sprites/hlcoop/rain_splash.spr
 sprites/voiceicon_m.spr						sprites/hlcoop/voiceicon_m.spr
 sprites/wep_smoke_01.spr					sprites/hlcoop/wep_smoke_01.spr
+sprites/te_decal.spr						sprites/hlcoop/te_decal.spr
+sprites/steam1_black.spr					sprites/hlcoop/steam1_black.spr
