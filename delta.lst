@@ -186,12 +186,12 @@ entity_state_player_t gamedll Player_Encode
 custom_entity_state_t gamedll Custom_Encode
 {
 	DEFINE_DELTA( rendermode, DT_INTEGER, 8, 1.0 ),
-	DEFINE_DELTA( origin[0], DT_SIGNED | DT_FLOAT, 19, 8.0 ),
-	DEFINE_DELTA( origin[1], DT_SIGNED | DT_FLOAT, 19, 8.0 ),
-	DEFINE_DELTA( origin[2], DT_SIGNED | DT_FLOAT, 19, 8.0 ),
-	DEFINE_DELTA( angles[0], DT_SIGNED | DT_FLOAT, 19, 8.0 ),
-	DEFINE_DELTA( angles[1], DT_SIGNED | DT_FLOAT, 19, 8.0 ),
-	DEFINE_DELTA( angles[2], DT_SIGNED | DT_FLOAT, 19, 8.0 ),
+	DEFINE_DELTA( origin[0], DT_SIGNED | DT_FLOAT, 16, 1.0 ),
+	DEFINE_DELTA( origin[1], DT_SIGNED | DT_FLOAT, 16, 1.0 ),
+	DEFINE_DELTA( origin[2], DT_SIGNED | DT_FLOAT, 16, 1.0 ),
+	DEFINE_DELTA( angles[0], DT_SIGNED | DT_FLOAT, 16, 1.0 ),
+	DEFINE_DELTA( angles[1], DT_SIGNED | DT_FLOAT, 16, 1.0 ),
+	DEFINE_DELTA( angles[2], DT_SIGNED | DT_FLOAT, 16, 1.0 ),
 	DEFINE_DELTA( sequence, DT_INTEGER, 16, 1.0 ),
 	DEFINE_DELTA( skin, DT_INTEGER, 16, 1.0 ),
 	DEFINE_DELTA( modelindex, DT_INTEGER, 16, 1.0 ),
