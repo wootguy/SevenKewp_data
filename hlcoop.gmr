@@ -46,8 +46,8 @@ models/houndeye.mdl					models/hlcoop_v2/houndeye.mdl
 models/hwgrunt.mdl					models/hlcoop_v2/hwgrunt.mdl
 models/hwgruntf.mdl					models/hlcoop_v2/hwgrunt.mdl
 models/icky.mdl						models/hlcoop_v2/icky.mdl
-models/islave.mdl					models/hlcoop_v2/islave.mdl
-models/islavef.mdl					models/hlcoop_v2/islave.mdl
+models/islave.mdl					models/hlcoop_v2/islave_v2.mdl
+models/islavef.mdl					models/hlcoop_v2/islave_v2.mdl
 models/kingpin.mdl					models/hlcoop_v2/kingpin.mdl
 models/massn.mdl					models/hlcoop_v2/massn.mdl
 models/mechgibs.mdl					models/hlcoop_v2/mechgibs.mdl
