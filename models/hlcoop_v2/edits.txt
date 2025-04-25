@@ -19,3 +19,12 @@ babygarg.mdl
 
 v_bgrap.mdl
 - use hlcoop sound folder
+
+v_rpg.mdl
+- add laser attachment
+
+w_knife.mdl
+- rotate to lie flat on floor
+
+v_knife.mdl
+- hev arm edit by Cybermax (https://gamebanana.com/mods/241584)
