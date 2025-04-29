@@ -28,3 +28,6 @@ w_knife.mdl
 
 v_knife.mdl
 - hev arm edit by Cybermax (https://gamebanana.com/mods/241584)
+
+osprey.mdl
+- fixup normals on landing gear body panels ("set from faces" in Blender)

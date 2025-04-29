@@ -58,7 +58,7 @@ models/mortar.mdl					models/hlcoop_v2/mortar.mdl
 models/mortarshell.mdl				models/hlcoop_v2/mortarshell.mdl
 models/nihilanth.mdl				models/hlcoop_v2/nihilanth.mdl
 models/not_precached.mdl			models/hlcoop_v2/not_precached.mdl
-models/osprey.mdl					models/hlcoop_v2/osprey.mdl
+models/osprey.mdl					models/hlcoop_v2/osprey_v2.mdl
 models/otis.mdl						models/hlcoop_v2/otis.mdl
 models/otisf.mdl					models/hlcoop_v2/otis.mdl
 models/pit_drone.mdl				models/hlcoop_v2/pit_drone_v2.mdl
