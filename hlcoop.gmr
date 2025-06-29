@@ -10,9 +10,9 @@ models/barnabus.mdl					models/hlcoop_v2/barney.mdl
 models/barney.mdl					models/hlcoop_v2/barney.mdl
 models/barney_helmet.mdl			models/hlcoop_v2/barney_helmet.mdl
 models/barney_vest.mdl				models/hlcoop_v2/barney_vest.mdl
-models/bgman.mdl					models/hlcoop_v2/bgman.mdl
 models/big_mom.mdl					models/hlcoop_v2/big_mom.mdl
 models/bigshrapnel.mdl				models/hlcoop_v2/bigshrapnel.mdl
+models/bgman.mdl					models/hlcoop_v2/bgman.mdl
 models/blkop_apache.mdl				models/hlcoop_v2/blkop_apache.mdl
 models/blkop_bodygibs.mdl			models/hlcoop_v2/blkop_bodygibs.mdl
 models/blkop_dead_osprey.mdl		models/hlcoop_v2/blkop_dead_osprey.mdl
@@ -64,6 +64,7 @@ models/otisf.mdl					models/hlcoop_v2/otis.mdl
 models/pit_drone.mdl				models/hlcoop_v2/pit_drone_v2.mdl
 models/pit_drone_gibs.mdl			models/hlcoop_v2/pit_drone_gibs.mdl
 models/pit_drone_spike.mdl			models/hlcoop_v2/pit_drone_spike.mdl
+models/player.mdl					models/hlcoop_v2/player.mdl
 models/rgrunt.mdl					models/hlcoop_v2/rgrunt.mdl
 models/rgruntf.mdl					models/hlcoop_v2/rgrunt.mdl
 models/saw_link.mdl					models/hlcoop_v2/saw_link.mdl
