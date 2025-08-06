@@ -145,6 +145,12 @@ sprites/2560/weapon_sporelauncher_weapon_s.spr	sprites/hlcoop/2560/weapon_sporel
 sprites/2560/weapon_sporelauncher_ammo.spr		sprites/hlcoop/2560/weapon_sporelauncher_ammo.spr
 sprites/weapon_sporelauncher.txt				sprites/hlcoop/weapon_sporelauncher.txt
 
+models/w_saw.mdl							models/hlcoop_v2/w_saw.mdl
+models/v_saw.mdl							models/hlcoop_v2/v_saw.mdl
+models/p_saw.mdl							models/hlcoop_v2/p_saw.mdl
+sprites/weapon_m249.spr						sprites/hlcoop/weapon_m249.spr
+sprites/weapon_m249.txt						sprites/hlcoop/weapon_m249.txt
+
 sprites/weapon_inventory.spr				sprites/hlcoop/weapon_inventory.spr
 sprites/weapon_inventory.txt				sprites/hlcoop/weapon_inventory.txt
 
