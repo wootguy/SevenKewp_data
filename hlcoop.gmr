@@ -84,6 +84,7 @@ models/v_rpg.mdl					models/hlcoop_v2/v_rpg_v2.mdl
 models/vgibs.mdl					models/hlcoop_v2/vgibs.mdl
 models/voltigore.mdl				models/hlcoop_v2/voltigore.mdl
 models/w_items_v2.mdl				models/hlcoop_v2/w_items_v2.mdl
+models/w_m40a1clip.mdl				models/hlcoop_v2/w_m40a1clip.mdl
 models/w_saw_clip.mdl				models/hlcoop_v2/w_saw_clip.mdl
 models/w_shock_rifle.mdl			models/hlcoop_v2/w_shock_rifle.mdl
 models/w_squeak.mdl					models/hlcoop_v2/w_squeak.mdl
@@ -151,6 +152,12 @@ models/p_saw.mdl							models/hlcoop_v2/p_saw.mdl
 sprites/weapon_m249.spr						sprites/hlcoop/weapon_m249.spr
 sprites/weapon_m249.txt						sprites/hlcoop/weapon_m249.txt
 
+models/w_m40a1.mdl							models/hlcoop_v2/w_m40a1.mdl
+models/v_m40a1.mdl							models/hlcoop_v2/v_m40a1.mdl
+models/p_m40a1.mdl							models/hlcoop_v2/p_m40a1.mdl
+sprites/weapon_sniperrifle.spr				sprites/hlcoop/weapon_sniperrifle.spr
+sprites/weapon_sniperrifle.txt				sprites/hlcoop/weapon_sniperrifle.txt
+
 sprites/weapon_inventory.spr				sprites/hlcoop/weapon_inventory.spr
 sprites/weapon_inventory.txt				sprites/hlcoop/weapon_inventory.txt
 
@@ -213,6 +220,8 @@ models/hands/op4/v_shotgun.mdl				models/hlcoop_v2/hands/op4/v_shotgun.mdl
 models/hands/op4/v_spore_launcher.mdl		models/hlcoop_v2/hands/op4/v_spore_launcher.mdl
 models/hands/op4/v_squeak.mdl				models/hlcoop_v2/hands/op4/v_squeak.mdl
 models/hands/op4/v_tripmine.mdl				models/hlcoop_v2/hands/op4/v_tripmine.mdl
+models/hands/op4/v_saw.mdl					models/hlcoop_v2/hands/op4/v_saw.mdl
+models/hands/op4/v_m40a1.mdl				models/hlcoop_v2/hands/op4/v_m40a1.mdl
 
 models/hands/bshift/v_357.mdl				models/hlcoop_v2/hands/bshift/v_357.mdl
 models/hands/bshift/v_9mmar.mdl				models/hlcoop_v2/hands/bshift/v_9mmar.mdl
@@ -232,3 +241,5 @@ models/hands/bshift/v_shotgun.mdl			models/hlcoop_v2/hands/bshift/v_shotgun.mdl
 models/hands/bshift/v_spore_launcher.mdl	models/hlcoop_v2/hands/bshift/v_spore_launcher.mdl
 models/hands/bshift/v_squeak.mdl			models/hlcoop_v2/hands/bshift/v_squeak.mdl
 models/hands/bshift/v_tripmine.mdl			models/hlcoop_v2/hands/bshift/v_tripmine.mdl
+models/hands/bshift/v_saw.mdl				models/hlcoop_v2/hands/bshift/v_saw.mdl
+models/hands/bshift/v_m40a1.mdl				models/hlcoop_v2/hands/bshift/v_m40a1.mdl
