@@ -88,6 +88,7 @@ models/w_m40a1clip.mdl				models/hlcoop_v2/w_m40a1clip.mdl
 models/w_saw_clip.mdl				models/hlcoop_v2/w_saw_clip.mdl
 models/w_shock_rifle.mdl			models/hlcoop_v2/w_shock_rifle.mdl
 models/w_squeak.mdl					models/hlcoop_v2/w_squeak.mdl
+models/w_uzi_clip.mdl				models/hlcoop_v2/w_uzi_clip.mdl
 models/weather/fog.mdl				models/hlcoop_v2/weather/fog_v3.mdl
 models/weather/rain0_128.bsp		models/hlcoop_v2/weather/rain0_128.bsp
 models/weather/rain1_128.bsp		models/hlcoop_v2/weather/rain1_128.bsp
@@ -158,6 +159,12 @@ models/p_m40a1.mdl							models/hlcoop_v2/p_m40a1.mdl
 sprites/weapon_sniperrifle.spr				sprites/hlcoop/weapon_sniperrifle.spr
 sprites/weapon_sniperrifle.txt				sprites/hlcoop/weapon_sniperrifle.txt
 
+models/w_uzi.mdl							models/hlcoop_v2/w_uzi.mdl
+models/v_uzi.mdl							models/hlcoop_v2/v_uzi.mdl
+models/p_uzi.mdl							models/hlcoop_v2/p_uzi.mdl
+sprites/weapon_uzi.spr						sprites/hlcoop/weapon_uzi.spr
+sprites/weapon_uzi.txt						sprites/hlcoop/weapon_uzi.txt
+
 sprites/weapon_inventory.spr				sprites/hlcoop/weapon_inventory.spr
 sprites/weapon_inventory.txt				sprites/hlcoop/weapon_inventory.txt
 
@@ -222,6 +229,7 @@ models/hands/op4/v_squeak.mdl				models/hlcoop_v2/hands/op4/v_squeak.mdl
 models/hands/op4/v_tripmine.mdl				models/hlcoop_v2/hands/op4/v_tripmine.mdl
 models/hands/op4/v_saw.mdl					models/hlcoop_v2/hands/op4/v_saw.mdl
 models/hands/op4/v_m40a1.mdl				models/hlcoop_v2/hands/op4/v_m40a1.mdl
+models/hands/op4/v_uzi.mdl					models/hlcoop_v2/hands/op4/v_uzi.mdl
 
 models/hands/bshift/v_357.mdl				models/hlcoop_v2/hands/bshift/v_357.mdl
 models/hands/bshift/v_9mmar.mdl				models/hlcoop_v2/hands/bshift/v_9mmar.mdl
@@ -243,3 +251,4 @@ models/hands/bshift/v_squeak.mdl			models/hlcoop_v2/hands/bshift/v_squeak.mdl
 models/hands/bshift/v_tripmine.mdl			models/hlcoop_v2/hands/bshift/v_tripmine.mdl
 models/hands/bshift/v_saw.mdl				models/hlcoop_v2/hands/bshift/v_saw.mdl
 models/hands/bshift/v_m40a1.mdl				models/hlcoop_v2/hands/bshift/v_m40a1.mdl
+models/hands/bshift/v_uzi.mdl				models/hlcoop_v2/hands/bshift/v_uzi.mdl

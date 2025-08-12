@@ -428,6 +428,18 @@ weapons/splauncher_reload.wav				hlcoop/weapons/splauncher_reload.wav
 weapons/spore_ammo.wav						hlcoop/weapons/spore_ammo.wav
 weapons/uzi/fire_both1.wav					hlcoop/weapons/uzi/fire_both1.wav
 weapons/uzi/fire_both2.wav					hlcoop/weapons/uzi/fire_both2.wav
+weapons/uzi/akimbo_deploy.wav				hlcoop/weapons/uzi/akimbo_deploy.wav
+weapons/uzi/akimbo_pull1.wav				hlcoop/weapons/uzi/akimbo_pull1.wav
+weapons/uzi/akimbo_pull2.wav				hlcoop/weapons/uzi/akimbo_pull2.wav
+weapons/uzi/deploy.wav						hlcoop/weapons/uzi/deploy.wav
+weapons/uzi/deploy1.wav						hlcoop/weapons/uzi/deploy1.wav
+weapons/uzi/reload1.wav						hlcoop/weapons/uzi/reload1.wav
+weapons/uzi/reload2.wav						hlcoop/weapons/uzi/reload2.wav
+weapons/uzi/reload3.wav						hlcoop/weapons/uzi/reload3.wav
+weapons/uzi/reload_left2.wav				hlcoop/weapons/uzi/reload_left2.wav
+weapons/uzi/shoot1.wav						hlcoop/weapons/uzi/shoot1.wav
+weapons/uzi/shoot2.wav						hlcoop/weapons/uzi/shoot2.wav
+weapons/uzi/shoot3.wav						hlcoop/weapons/uzi/shoot3.wav
 
 
 //
