@@ -162,6 +162,8 @@ sprites/weapon_sniperrifle.txt				sprites/hlcoop/weapon_sniperrifle.txt
 models/w_uzi.mdl							models/hlcoop_v2/w_uzi.mdl
 models/v_uzi.mdl							models/hlcoop_v2/v_uzi.mdl
 models/p_uzi.mdl							models/hlcoop_v2/p_uzi.mdl
+models/p_2uzis.mdl							models/hlcoop_v2/p_2uzis.mdl
+models/w_2uzis.mdl							models/hlcoop_v2/w_2uzis.mdl
 sprites/weapon_uzi.spr						sprites/hlcoop/weapon_uzi.spr
 sprites/weapon_uzi.txt						sprites/hlcoop/weapon_uzi.txt
 
@@ -252,3 +254,4 @@ models/hands/bshift/v_tripmine.mdl			models/hlcoop_v2/hands/bshift/v_tripmine.md
 models/hands/bshift/v_saw.mdl				models/hlcoop_v2/hands/bshift/v_saw.mdl
 models/hands/bshift/v_m40a1.mdl				models/hlcoop_v2/hands/bshift/v_m40a1.mdl
 models/hands/bshift/v_uzi.mdl				models/hlcoop_v2/hands/bshift/v_uzi.mdl
+models/hands/bshift/v_uzi.mdl				models/hlcoop_v2/hands/op4/v_uzi.mdl
