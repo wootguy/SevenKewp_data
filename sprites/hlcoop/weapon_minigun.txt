@@ -1,0 +1,7 @@
+6
+ammo			2560 2560/weapon_9mmar_ammo	0	0	72	72
+crosshair		2560 hlcoop/weapon_m249	340	342	72	72
+ammo			1280 1280/weapon_9mmar_ammo	0	0	48	48
+crosshair		1280 hlcoop/weapon_m249	412	342	48	48
+ammo			640 640hud7	0	72	24	24
+crosshair		640 hlcoop/weapon_m249	460	342	24	24
