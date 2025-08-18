@@ -390,6 +390,11 @@ weapons/glock_reload.wav					hlcoop/weapons/glock_reload.wav
 weapons/knife1.wav							hlcoop/weapons/knife1.wav
 weapons/knife2.wav							hlcoop/weapons/knife2.wav
 weapons/knife3.wav							hlcoop/weapons/knife3.wav
+weapons/m16_charge.wav						hlcoop/weapons/m16_charge.wav
+weapons/m16_draw.wav						hlcoop/weapons/m16_draw.wav
+weapons/m16_magin_metallic.wav				hlcoop/weapons/m16_magin_metallic.wav
+weapons/m16_magout_metallic.wav				hlcoop/weapons/m16_magout_metallic.wav
+weapons/m16_single.wav						hlcoop/weapons/m16_single.wav
 weapons/ofmortar.wav						hlcoop/weapons/ofmortar.wav
 weapons/pwrench_big_hit1.wav				hlcoop/weapons/pwrench_big_hit1.wav
 weapons/pwrench_big_hit2.wav				hlcoop/weapons/pwrench_big_hit2.wav

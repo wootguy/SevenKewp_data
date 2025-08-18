@@ -1,0 +1,19 @@
+18
+weapon			2560 hlcoop/weapon_m16	0	0	510	135
+weapon_s		2560 hlcoop/weapon_m16	0	135	510	135
+ammo			2560 hlcoop/weapon_m249	340	270	72	72
+ammo2			2560 2560/weapon_9mmar_ammo2	0	0	72	72
+crosshair		2560 2560crosshairs	0	144	72	72
+autoaim			2560 2560crosshairs	144	216	72	72
+weapon			1280 hlcoop/weapon_m16	0	270	340	90
+weapon_s		1280 hlcoop/weapon_m16	0	360	340	90
+ammo			1280 hlcoop/weapon_m249	412	270	48	48
+ammo2			1280 1280/weapon_9mmar_ammo2	0	0	48	48
+crosshair		1280 1280crosshairs	0	96	48	48
+autoaim			1280 1280crosshairs	96	144	48	48
+weapon			640 hlcoop/weapon_m16	0	450	170	45
+weapon_s		640 hlcoop/weapon_m16	170	450	170	45
+ammo			640 hlcoop/weapon_m249	460	270	24	24
+ammo2			640 640hud7	48	72	24	24
+crosshair		640 crosshairs	0	48	24	24
+autoaim			640 crosshairs	48	72	24	24
