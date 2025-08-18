@@ -372,6 +372,8 @@ weapons/bgrapple_wait.wav					hlcoop/weapons/bgrapple_wait.wav
 weapons/de_shot1.wav						hlcoop/weapons/de_shot1.wav
 weapons/desert_eagle_fire.wav				hlcoop/weapons/desert_eagle_fire.wav
 weapons/desert_eagle_reload.wav				hlcoop/weapons/desert_eagle_reload.wav
+weapons/desert_eagle_sight.wav				hlcoop/weapons/desert_eagle_sight.wav
+weapons/desert_eagle_sight2.wav				hlcoop/weapons/desert_eagle_sight2.wav
 weapons/displacer_fire.wav					hlcoop/weapons/displacer_fire.wav
 weapons/displacer_impact.wav				hlcoop/weapons/displacer_impact.wav
 weapons/displacer_self.wav					hlcoop/weapons/displacer_self.wav
