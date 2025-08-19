@@ -174,11 +174,11 @@ bucket2			640 640hud7	188	72	20	20
 bucket3			640 640hud7	208	72	20	20		
 bucket4			640 640hud7	168	92	20	20		
 bucket5			640 640hud7	188	92	20	20		
-bucket6			640 hlcoop/weapon_buckets	200	120	20	20		
-bucket7			640 hlcoop/weapon_buckets	220	120	20	20		
-bucket8			640 hlcoop/weapon_buckets	240	120	20	20		
-bucket9			640 hlcoop/weapon_buckets	260	120	20	20		
-bucket10		640 hlcoop/weapon_buckets	280	120	20	20	
+bucket6			640 hlcoop/weapon_buckets	200	140	20	20		
+bucket7			640 hlcoop/weapon_buckets	220	140	20	20		
+bucket8			640 hlcoop/weapon_buckets	240	140	20	20		
+bucket9			640 hlcoop/weapon_buckets	260	140	20	20		
+bucket10		640 hlcoop/weapon_buckets	280	140	20	20	
 bucket0			640 640hud7	208	92	20	20		
 
 dmg_bio			640 640hud8	128	0	64	64
