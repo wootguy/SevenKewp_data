@@ -1,0 +1,105 @@
+// Command Menu definition
+// 
+// Basic Format:
+//		"<Bound Key>" "<Button Text>" "<Command>"
+//
+// Submenu format:
+//		"<Bound Key>" "<Menu Text>"
+//		{
+//			<more buttons or submenus>
+//		}
+//
+// Buttons preceded with "CUSTOM" are handled in special ways.
+// They can only be moved around or deleted.
+//
+// Lines beginning with "//" are ignored
+//
+// Limitations:
+//		Maximum of 40 menus.
+//		Maximum of 100 buttons per menu.
+
+
+"1" "Commands"
+{
+	"1" "Drop Current Weapon" "drop"
+	"2" "Drop Primary Ammo" "dropammo"
+	"3" "Drop Secondary Ammo" "dropammo2"
+	"4" "Suicide" "kill"
+	"5" "Spectate" "spectate"
+}
+"2" "Camera"
+{
+	"1" "Toggle Thirdperson" "+thirdperson;-thirdperson"
+	"2" "Restore Defaults" "cam_snapback 1;cam_idealdist 90;cam_idealyaw 0"
+	"3" "Auto Reset"
+	{
+		"1" "ON" "cam_snapback 1"
+		"2" "OFF" "cam_snapback 0"
+	}
+	"4" "Distance"
+	{
+		"1" "0" "cam_idealdist 0"
+		"2" "45" "cam_idealdist 45"
+		"3" "64" "cam_idealdist 64"
+		"4" "90" "cam_idealdist 90"
+		"5" "128" "cam_idealdist 128"
+		"6" "256" "cam_idealdist 256"
+		"7" "512" "cam_idealdist 512"
+		"8" "1024" "cam_idealdist 1024"
+	}
+	"5" "Rotation"
+	{
+		"1" "0" "cam_idealyaw 0"
+		"2" "15" "cam_idealyaw 20"
+		"3" "45" "cam_idealyaw 45"
+		"4" "90" "cam_idealyaw 90"
+		"5" "135" "cam_idealyaw 135"
+		"6" "180" "cam_idealyaw 180"
+		"7" "225" "cam_idealyaw 225"
+		"8" "270" "cam_idealyaw 270"
+		"9" "315" "cam_idealyaw 315"
+	}
+}
+"3" "UI Settings"
+{
+	"1" "Chat History"
+	{
+		"1" "5 Lines" "hud_saytext_lines 5"
+		"2" "10 Lines" "hud_saytext_lines 10"
+		"3" "15 Lines" "hud_saytext_lines 15"
+		"4" "20 Lines" "hud_saytext_lines 20"
+	}
+	"2" "VGUI Mouse Capture"
+	{
+		"1" "ON" "hud_capturemouse 1"
+		"2" "OFF" "hud_capturemouse 0"
+	}
+	"3" "Network Graph"
+	{
+		"1" "ON" "net_graph 2"
+		"2" "OFF" "net_graph 0"
+	}
+	"4" "Monospace Console Font"
+	{
+		"1" "ON" "con_mono 1"
+		"2" "OFF" "con_mono 0"
+	}
+}
+//"4" "Help"
+//{
+//	CUSTOM		"1" "Server Info"		"!SERVERINFO"
+//	CUSTOM		"2" "Map Description"	"!MAPBRIEFING"
+//}
+
+
+" " "Reconnect"	"retry"
+" " "Quit Game + Reconnect"
+{
+	"1" "Are you sure?"
+	{
+		"1" "No"	""
+		CUSTOM  	"2" "Yes"	"!REBOOT"
+	}
+	
+}
+CUSTOM  	" " "Update Client"	"!UPDATECLIENT"
