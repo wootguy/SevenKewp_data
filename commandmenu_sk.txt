@@ -62,24 +62,32 @@
 }
 "3" "UI Settings"
 {
-	"1" "Chat History"
+	"1" "Name Tags"
+	{
+		"1" "Enable Tags" "cl_nametags 1"
+		"2" "Enable Tags (X-Ray Mode)" "cl_nametags 2"
+		"3" "Disable Tags" "cl_nametags 0"
+		"4" "Show Health" "cl_nametags_hp 1"
+		"5" "Hide Health" "cl_nametags_hp 0"
+	}
+	"2" "Chat History"
 	{
 		"1" "5 Lines" "hud_saytext_lines 5"
 		"2" "10 Lines" "hud_saytext_lines 10"
 		"3" "15 Lines" "hud_saytext_lines 15"
 		"4" "20 Lines" "hud_saytext_lines 20"
 	}
-	"2" "VGUI Mouse Capture"
+	"3" "VGUI Mouse Capture"
 	{
 		"1" "ON" "hud_capturemouse 1"
 		"2" "OFF" "hud_capturemouse 0"
 	}
-	"3" "Network Graph"
+	"4" "Network Graph"
 	{
 		"1" "ON" "net_graph 2"
 		"2" "OFF" "net_graph 0"
 	}
-	"4" "Monospace Console Font"
+	"5" "Monospace Console Font"
 	{
 		"1" "ON" "con_mono 1"
 		"2" "OFF" "con_mono 0"
