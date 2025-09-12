@@ -31,3 +31,27 @@ v_knife.mdl
 
 osprey.mdl
 - fixup normals on landing gear body panels ("set from faces" in Blender)
+
+v_m4a1.mdl
+- removed sound events
+
+v_saw.mdl:
+- removed sound events
+
+v_minigun.mdl:
+- removed sound events
+
+v_uzi.mdl
+- animations reordered
+- left uzi removed (mirrored rendering used instead)
+- edited animations so that left hand is out of view:
+    akimbo_deploy, akimbo_idle, akimbo_pull, akimbo_reload_right, akimbo_fire_right
+- new animations: 
+  - akimbo_holster
+    - right hand is first few frames of akimbo_reload_left
+    - left hand lowered out of view
+  - akimbo_deploy2
+    - right hand is last few frames of akimbo_reload_left
+    - left hand lowered out of view
+- removed animations:
+    --LiquidGamerX--, akimbo_reload_left, akimbo_fire_left, akimbo_fire_both

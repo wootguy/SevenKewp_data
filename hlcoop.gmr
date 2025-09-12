@@ -83,7 +83,7 @@ models/turret.mdl					models/hlcoop_v2/turret.mdl
 models/v_rpg.mdl					models/hlcoop_v2/v_rpg_v2.mdl
 models/vgibs.mdl					models/hlcoop_v2/vgibs.mdl
 models/voltigore.mdl				models/hlcoop_v2/voltigore.mdl
-models/w_items_v2.mdl				models/hlcoop_v2/w_items_v2.mdl
+models/w_items_v3.mdl				models/hlcoop_v2/w_items_v3.mdl
 models/w_m40a1clip.mdl				models/hlcoop_v2/w_m40a1clip.mdl
 models/w_saw_clip.mdl				models/hlcoop_v2/w_saw_clip.mdl
 models/w_shock_rifle.mdl			models/hlcoop_v2/w_shock_rifle.mdl
