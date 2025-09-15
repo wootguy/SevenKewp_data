@@ -17,7 +17,7 @@ models/blkop_apache.mdl				models/hlcoop_v2/blkop_apache.mdl
 models/blkop_bodygibs.mdl			models/hlcoop_v2/blkop_bodygibs.mdl
 models/blkop_dead_osprey.mdl		models/hlcoop_v2/blkop_dead_osprey.mdl
 models/blkop_enginegibs.mdl			models/hlcoop_v2/blkop_enginegibs.mdl
-models/blkop_osprey.mdl				models/hlcoop_v2/blkop_osprey.mdl
+models/blkop_osprey.mdl				models/hlcoop_v2/osprey_v3.mdl
 models/blkop_tailgibs.mdl			models/hlcoop_v2/blkop_tailgibs.mdl
 models/bullsquid.mdl				models/hlcoop_v2/bullsquid.mdl
 models/camera.mdl					models/hlcoop_v2/camera.mdl
@@ -58,7 +58,7 @@ models/mortar.mdl					models/hlcoop_v2/mortar.mdl
 models/mortarshell.mdl				models/hlcoop_v2/mortarshell.mdl
 models/nihilanth.mdl				models/hlcoop_v2/nihilanth.mdl
 models/not_precached.mdl			models/hlcoop_v2/not_precached.mdl
-models/osprey.mdl					models/hlcoop_v2/osprey_v2.mdl
+models/osprey.mdl					models/hlcoop_v2/osprey_v3.mdl
 models/otis.mdl						models/hlcoop_v2/otis.mdl
 models/otisf.mdl					models/hlcoop_v2/otis.mdl
 models/pit_drone.mdl				models/hlcoop_v2/pit_drone_v2.mdl
