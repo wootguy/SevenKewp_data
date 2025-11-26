@@ -168,7 +168,7 @@ sprites/weapon_uzi.spr						sprites/hlcoop/weapon_uzi.spr
 sprites/weapon_uzi.txt						sprites/hlcoop/weapon_uzi.txt
 
 models/w_minigun.mdl						models/hlcoop_v2/w_minigun.mdl
-models/v_minigun.mdl						models/hlcoop_v2/v_minigun.mdl
+models/v_minigun.mdl						models/hlcoop_v2/v_minigun_v2.mdl
 models/p_minigun.mdl						models/hlcoop_v2/p_minigun.mdl
 sprites/weapon_minigun.txt					sprites/hlcoop/weapon_minigun.txt
 
