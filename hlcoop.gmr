@@ -228,6 +228,10 @@ sprites/voiceicon_m.spr						sprites/hlcoop/voiceicon_m.spr
 sprites/wep_smoke_01.spr					sprites/hlcoop/wep_smoke_01.spr
 sprites/te_decal.spr						sprites/hlcoop/te_decal.spr
 sprites/laserdot.spr						sprites/hlcoop/laserdot.spr
+sprites/splash.spr							sprites/hlcoop/splash.spr
+sprites/splash2.spr							sprites/hlcoop/splash2.spr
+sprites/splashwake.spr						sprites/hlcoop/splashwake.spr
+sprites/splashwakehl.spr					sprites/hlcoop/splashwakehl.spr
 
 models/hands/op4/v_357.mdl					models/hlcoop_v2/hands/op4/v_357.mdl
 models/hands/op4/v_9mmar.mdl				models/hlcoop_v2/hands/op4/v_9mmar.mdl

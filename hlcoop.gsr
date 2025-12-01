@@ -448,6 +448,12 @@ weapons/uzi/reload_left2.wav				hlcoop/weapons/uzi/reload_left2.wav
 weapons/uzi/shoot1.wav						hlcoop/weapons/uzi/shoot1.wav
 weapons/uzi/shoot2.wav						hlcoop/weapons/uzi/shoot2.wav
 weapons/uzi/shoot3.wav						hlcoop/weapons/uzi/shoot3.wav
+water/splash.wav							hlcoop/water/splash.wav
+water/splash2.wav							hlcoop/water/splash2.wav
+water/splash3.wav							hlcoop/water/splash3.wav
+water/waterblow.wav							hlcoop/water/waterblow.wav
+water/explode3.wav							hlcoop/water/explode3.wav
+water/explode5.wav							hlcoop/water/explode5.wav
 
 
 //
