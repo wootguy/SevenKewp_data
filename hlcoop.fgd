@@ -1,0 +1,14 @@
+
+@BaseClass = Angles
+[
+	angles(string) : "Pitch Yaw Roll (X Y Z)" : "0 0 0"
+]
+
+@PointClass base(Angles) = info_landmark : "Landmark"
+[
+	spawnflags(Flags) =
+	[
+		1: "Spawn point" : 0 : "Automatically place player spawns underneath this entity. Spawns will face away from the nearest level change (snapped to 90 degree angles)"
+		2: "Use angles" : 0 : "Use this entity's angles to orient player spawn points"
+	]
+]
