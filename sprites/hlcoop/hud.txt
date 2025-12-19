@@ -1,4 +1,4 @@
-272
+276
 
 //===========================================
 selection		2560 2560/hud_selection	0	0	510	135
@@ -323,3 +323,8 @@ item_healthkit	320	320hud2	68	52	20	20
 item_longjump	320	320hud2	88	52	20	20
 
 grenade			320 320hud2     36      34      18      18
+
+pain			320		320_pain 0	0	128	48
+pain			640		640_pain 0	0	128	48
+pain			1280	1280_pain 0	0	256	96
+pain			2560	2560_pain 0	0	384	144
