@@ -27,6 +27,11 @@
 	"4" "Suicide" "kill"
 	"5" "Spectate" "spectate"
 }
+"1" "Weapon Loadout"
+{
+	"1" "SevenKewp" "cl_class 0"
+	"2" "Half-Life Deathmatch" "cl_class 1"
+}
 "2" "Camera"
 {
 	"1" "Toggle Thirdperson" "+thirdperson;-thirdperson"
@@ -167,7 +172,7 @@
 		"6" "6 Pixels" "hud_crosshair_width 6"
 		"7" "8 Pixels" "hud_crosshair_width 8"
 		"8" "10 Pixels" "hud_crosshair_width 10"
-		"9" "100 Pixels" "hud_crosshair_width 20"
+		"9" "100 Pixels" "hud_crosshair_width 100"
 	}
 	"5" "Border"
 	{
@@ -204,6 +209,24 @@
 	{
 		"1" "Enable" "hud_crosshair_tee 1"
 		"2" "Disable" "hud_crosshair_tee 0"
+	}
+}
+"5" "Misc"
+{
+	"1" "Allow map player models"
+	{
+		"0" "Yes" "cl_map_pmdls 1"
+		"1" "No" "cl_map_pmdls 0"
+	}
+	"2" "Debug mode"
+	{
+		"0" "Enable" "cl_debug 1"
+		"1" "Disable" "cl_debug 0"
+	}
+	"3" "r_speeds HUD"
+	{
+		"0" "Enable" "cl_rspeeds 1"
+		"1" "Disable" "cl_rspeeds 0"
 	}
 }
 //"4" "Help"
