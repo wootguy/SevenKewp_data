@@ -1,0 +1,172 @@
+[general]
+classname               = weapon_eagle
+hl_client_classname     = weapon_357
+kill_feed_icon          = weapon_357
+display_name            = Desert Eagle
+flags                   = unlink_cooldowns + has_hand_models
+v_model                 = models/v_desert_eagle.mdl
+p_model                 = models/p_desert_eagle.mdl
+w_model                 = models/w_desert_eagle.mdl
+hud_folder              = hlcoop
+slot                    = 1
+slot_position           = 5
+weight                  = 15
+deploy_anim             = 9
+deploy_anim_time        = 890ms
+thirdperson_anims       = python
+
+[primary_ammo]
+type                    = 357
+clip_size               = 7
+drop_entity             = ammo_357
+drop_amount             = 6
+
+[laser]
+dot_sprite              = sprites/hlcoop/laserdot.spr
+beam_sprite             = sprites/laserbeam.spr
+dot_size                = 5
+beam_width              = 1
+attachment              = 2
+
+[idle]
+anim                    = 2
+weight                  = 60
+time                    = 1670ms
+
+[idle]
+anim                    = 4
+weight                  = 20
+time                    = 2030ms
+
+[idle]
+anim                    = 0
+weight                  = 10
+time                    = 2530ms
+
+[idle]
+anim                    = 1
+weight                  = 10
+time                    = 2540ms
+
+[idle_laser]
+anim                    = 2
+weight                  = 80
+time                    = 1670ms
+
+[idle_laser]
+anim                    = 4
+weight                  = 10
+time                    = 2030ms
+
+[idle_laser]
+anim                    = 3
+weight                  = 10
+time                    = 2530ms
+
+
+
+; --------------------------------
+; Primary attack
+; --------------------------------
+
+[primary_attack]
+ammo_cost               = 1
+cooldown                = 220ms
+accuracy                = 6.00
+
+[event.primary_attack.bullets]
+count                   = 1
+damage                  = 50
+accuracy                = 6.00
+
+[event.primary_clip_is_not_empty.weapon_anim]
+anims                   = 5
+
+[event.primary_clip_is_0.weapon_anim]
+anims                   = 6
+
+
+
+; --------------------------------
+; Alternate primary attack
+; --------------------------------
+
+[primary_alt_attack]
+ammo_cost               = 1
+cooldown                = 500ms
+accuracy                = 1.00
+
+[event.primary_alt_attack.bullets]
+count                   = 1
+damage                  = 50
+accuracy                = 0.50
+
+
+
+; --------------------------------
+; Secondary attack
+; --------------------------------
+
+[secondary_attack]
+flags                   = not_an_attack
+cooldown                = 500ms
+
+[event.secondary_attack.toggle_state]
+toggled_states          = primary_alt + laser
+
+
+
+; --------------------------------
+; Reload
+; --------------------------------
+
+[reload]
+anim                    = 8
+time                    = 1680ms
+
+[reload_empty]
+anim                    = 7
+time                    = 1680ms
+
+[event.reload.sound]
+delay                   = 16ms
+sound                   = hlcoop/weapons/desert_eagle_reload.wav
+
+
+
+; --------------------------------
+; Reactionary events
+; --------------------------------
+
+[event.bullet_fired.sound]
+volume_for_ai           = normal
+channel                 = weapon
+sound                   = hlcoop/weapons/desert_eagle_fire.wav
+attenuation             = 0.80
+pitch_min               = 94
+pitch_max               = 109
+distant_sound           = distant_357
+
+[event.bullet_fired.recoil]
+flags                   = set_angles
+angles                  = -4.00 0.00 0.00
+
+[event.bullet_fired.hide_laser]
+time                    = 400ms
+
+[event.bullet_fired.eject_shell]
+sound                   = shell
+model                   = models/shell.mdl
+offset                  = 16 -8 8
+
+
+
+; --------------------------------
+; State change events
+; --------------------------------
+
+[event.laser_on.sound]
+sound                   = hlcoop/weapons/desert_eagle_sight.wav
+
+[event.laser_off.sound]
+sound                   = hlcoop/weapons/desert_eagle_sight2.wav
