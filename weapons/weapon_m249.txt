@@ -1,0 +1,128 @@
+[general]
+classname               = weapon_m249
+hl_client_classname     = weapon_9mmAR
+kill_feed_icon          = weapon_9mmAR
+display_name            = M249
+flags                   = dynamic_accuracy + has_hand_models
+v_model                 = models/v_saw.mdl
+p_model                 = models/p_saw.mdl
+w_model                 = models/w_saw.mdl
+hud_folder              = hlcoop
+slot                    = 5
+slot_position           = 0
+weight                  = 20
+deploy_anim             = 5
+deploy_anim_time        = 1030ms
+thirdperson_anims       = saw
+
+[primary_ammo]
+type                    = 556
+clip_size               = 200
+drop_entity             = ammo_556
+drop_amount             = 100
+
+[idle]
+anim                    = 0
+weight                  = 95
+time                    = 5000ms
+
+[idle]
+anim                    = 1
+weight                  = 5
+time                    = 6160ms
+
+
+
+; --------------------------------
+; Primary attack
+; --------------------------------
+
+[primary_attack]
+ammo_cost               = 1
+cooldown                = 67ms
+accuracy                = 6.00
+
+[event.primary_attack.weapon_anim]
+anims                   = 6 7 8
+
+[event.primary_attack.sound]
+volume_for_ai           = loud
+channel                 = weapon
+sound                   = hlcoop/weapons/saw_fire1.wav
+attenuation             = 0.80
+pitch_min               = 94
+pitch_max               = 109
+distant_sound           = distant_556
+
+[event.primary_attack.bullets]
+count                   = 1
+damage                  = sk_plr_556_bullet
+accuracy                = 6.00
+tracer_frequency        = 2
+flags                   = dynamic_spread
+
+[event.primary_attack.kickback]
+push_force              = 35
+percent_back            = 100
+
+[event.primary_attack.recoil]
+angles                  = 2.00 1.00 0.00
+
+[event.primary_clip_is_even.eject_shell]
+sound                   = shell
+model                   = models/hlcoop_v2/saw_shell.mdl
+offset                  = 9 -8 2
+
+[event.primary_clip_is_odd.eject_shell]
+sound                   = shell
+model                   = models/hlcoop_v2/saw_link.mdl
+offset                  = 9 -8 2
+
+[event.primary_clip_is_0.set_weapon_body]
+new_body                = 8
+
+[event.primary_clip_is_1.set_weapon_body]
+new_body                = 7
+
+[event.primary_clip_is_2.set_weapon_body]
+new_body                = 6
+
+[event.primary_clip_is_3.set_weapon_body]
+new_body                = 5
+
+[event.primary_clip_is_4.set_weapon_body]
+new_body                = 4
+
+[event.primary_clip_is_5.set_weapon_body]
+new_body                = 3
+
+[event.primary_clip_is_6.set_weapon_body]
+new_body                = 2
+
+[event.primary_clip_is_7.set_weapon_body]
+new_body                = 1
+
+
+
+; --------------------------------
+; Reload
+; --------------------------------
+
+[reload]
+anim                    = 2
+time                    = 3800ms
+
+[event.reload.sound]
+delay                   = 16ms
+sound                   = hlcoop/weapons/saw_reload.wav
+
+[event.reload.sound]
+delay                   = 1330ms
+sound                   = hlcoop/weapons/saw_reload2.wav
+
+[event.reload.set_weapon_body]
+delay                   = 1330ms
+
+[event.reload.weapon_anim]
+delay                   = 1330ms
+anims                   = 3

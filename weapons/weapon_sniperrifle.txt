@@ -1,0 +1,111 @@
+[general]
+classname               = weapon_sniperrifle
+hl_client_classname     = weapon_crossbow
+kill_feed_icon          = weapon_crossbow
+display_name            = M40A1
+flags                   = unlink_cooldowns + force_zoom_sprite + has_hand_models
+v_model                 = models/v_m40a1.mdl
+p_model                 = models/p_m40a1.mdl
+w_model                 = models/w_m40a1.mdl
+hud_folder              = hlcoop
+slot                    = 5
+slot_position           = 1
+weight                  = 20
+deploy_anim             = 0
+thirdperson_anims       = sniper
+thirdperson_anims_zoom  = sniperscope
+
+[primary_ammo]
+type                    = 762
+clip_size               = 5
+drop_entity             = ammo_762
+drop_amount             = 5
+
+[idle]
+anim                    = 1
+weight                  = 100
+time                    = 4348ms
+
+
+
+; --------------------------------
+; Primary attack
+; --------------------------------
+
+[primary_attack]
+ammo_cost               = 1
+cooldown                = 2000ms
+accuracy                = 0.11
+
+[event.primary_attack.sound]
+volume_for_ai           = normal
+channel                 = weapon
+sound                   = weapons/sniper_fire.wav
+attenuation             = 0.20
+pitch_min               = 94
+pitch_max               = 109
+
+[event.primary_attack.bullets]
+count                   = 1
+damage                  = sk_plr_762_bullet
+accuracy                = 0.11
+
+[event.primary_attack.recoil]
+flags                   = set_angles
+angles                  = -2.00 0.00 0.00
+
+[event.primary_clip_is_not_empty.weapon_anim]
+anims                   = 2
+
+[event.primary_clip_is_not_empty.sound]
+delay                   = 620ms
+sound                   = weapons/sniper_bolt1.wav
+
+[event.primary_clip_is_0.weapon_anim]
+anims                   = 3
+
+[event.primary_clip_is_0.sound]
+delay                   = 620ms
+sound                   = weapons/sniper_bolt2.wav
+
+
+
+; --------------------------------
+; Secondary attack
+; --------------------------------
+
+[secondary_attack]
+flags                   = not_an_attack
+cooldown                = 500ms
+
+[event.secondary_attack.sound]
+sound                   = weapons/sniper_zoom.wav
+
+[event.secondary_attack.toggle_zoom]
+zoom_fov                = 18
+
+
+
+; --------------------------------
+; Reload
+; --------------------------------
+
+[reload]
+anim                    = 6
+time                    = 2353ms
+
+[reload_empty]
+anim                    = 4
+time                    = 4102ms
+
+[event.reload.sound]
+delay                   = 16ms
+sound                   = weapons/sniper_reload_first_seq.wav
+
+[event.reload_empty.sound]
+delay                   = 2324ms
+sound                   = weapons/sniper_reload_second_seq.wav
+
+[event.reload_empty.weapon_anim]
+delay                   = 2324ms
+anims                   = 5

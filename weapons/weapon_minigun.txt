@@ -1,0 +1,156 @@
+[general]
+classname               = weapon_minigun
+hl_client_classname     = weapon_9mmAR
+kill_feed_icon          = weapon_9mmAR
+display_name            = Minigun
+flags                   = link_chargeups + primary_priority + exclusive_hold + use_only + has_hand_models
+v_model                 = models/v_minigun.mdl
+p_model                 = models/p_minigun.mdl
+w_model                 = models/w_minigun.mdl
+hud_folder              = hlcoop
+slot                    = 5
+slot_position           = 2
+weight                  = 20
+deploy_anim             = 4
+thirdperson_anims       = saw
+move_speed              = 0.60
+jump_power              = 200
+
+[primary_ammo]
+type                    = 556
+default_give            = 100
+drop_entity             = ammo_556
+drop_amount             = 100
+
+[idle]
+anim                    = 2
+weight                  = 85
+time                    = 6200ms
+
+[idle]
+anim                    = 0
+weight                  = 10
+time                    = 6200ms
+
+[idle]
+anim                    = 1
+weight                  = 5
+time                    = 6200ms
+
+
+
+; --------------------------------
+; Primary attack
+; --------------------------------
+
+[primary_attack]
+ammo_cost               = 2
+cooldown                = 50ms
+cooldown_fail           = 200ms
+accuracy                = 4.00
+charge_mode             = constant_fire
+charge_time             = 800ms
+charge_cancel_time      = 800ms
+charge_move_speed       = 0.40
+
+[event.primary_attack.weapon_anim]
+anims                   = 9
+
+[event.primary_attack.bullets]
+count                   = 2
+burst_delay             = 25ms
+damage                  = sk_plr_556_bullet
+accuracy                = 4.00
+tracer_frequency        = 2
+
+[event.primary_clip_is_even.eject_shell]
+sound                   = shell
+model                   = models/hlcoop_v2/saw_link.mdl
+offset                  = 9 -8 2
+
+[event.primary_clip_is_odd.eject_shell]
+sound                   = shell
+model                   = models/hlcoop_v2/saw_shell.mdl
+offset                  = 9 -8 2
+
+[event.primary_attack_charge.weapon_anim]
+anims                   = 6
+
+[event.primary_attack_charge.weapon_anim]
+delay                   = 200ms
+flags                   = thirdperson_model
+anims                   = 1
+
+[event.primary_attack_charge.sound]
+sound                   = hassault/hw_spinup.wav
+
+[event.primary_attack_stop.weapon_anim]
+anims                   = 7
+
+[event.primary_attack_stop.weapon_anim]
+delay                   = 1000ms
+flags                   = thirdperson_model
+
+[event.primary_attack_stop.sound]
+sound                   = hassault/hw_spindown.wav
+
+[event.primary_attack_stop.cooldown]
+time                    = 2030ms
+actions                 = idle
+
+[event.primary_attack_stop.cooldown]
+time                    = 1500ms
+actions                 = primary + secondary
+
+[event.primary_attack_fail.weapon_anim]
+flags                   = no_reset
+anims                   = 8
+
+[event.primary_attack_fail.sound]
+volume                  = 0.50
+sound                   = hassault/hw_spin2.wav
+
+
+
+; --------------------------------
+; Secondary attack
+; --------------------------------
+
+[secondary_attack]
+flags                   = not_an_attack
+cooldown                = 200ms
+charge_mode             = constant_fire
+charge_time             = 800ms
+charge_cancel_time      = 800ms
+charge_move_speed       = 0.40
+
+[event.secondary_attack.weapon_anim]
+flags                   = no_reset
+anims                   = 8
+
+[event.secondary_attack.sound]
+volume                  = 0.50
+sound                   = hassault/hw_spin2.wav
+
+
+
+; --------------------------------
+; Reactionary events
+; --------------------------------
+
+[event.bullet_fired.sound]
+volume_for_ai           = loud
+channel                 = weapon
+sound                   = hassault/hw_shoot2.wav
+attenuation             = 0.80
+pitch_min               = 94
+pitch_max               = 109
+distant_sound           = distant_9mm
+
+[event.bullet_fired.recoil]
+flags                   = no_recovery + only_when_standing
+angles                  = 1.30 1.30 0.00
+
+[event.bullet_fired.recoil]
+flags                   = no_recovery + only_when_ducking
+angles                  = 1.00 1.00 0.00

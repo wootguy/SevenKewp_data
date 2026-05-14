@@ -76,7 +76,7 @@ accuracy                = 6.00
 
 [event.primary_attack.bullets]
 count                   = 1
-damage                  = 50
+damage                  = sk_plr_357_bullet
 accuracy                = 6.00
 
 [event.primary_clip_is_not_empty.weapon_anim]
@@ -98,7 +98,7 @@ accuracy                = 1.00
 
 [event.primary_alt_attack.bullets]
 count                   = 1
-damage                  = 50
+damage                  = sk_plr_357_bullet
 accuracy                = 0.50
 
 

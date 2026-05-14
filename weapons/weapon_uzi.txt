@@ -1,0 +1,194 @@
+[general]
+classname               = weapon_uzi
+hl_client_classname     = weapon_9mmAR
+kill_feed_icon          = weapon_9mmAR
+display_name            = Uzi
+flags                   = has_hand_models
+v_model                 = models/v_uzi.mdl
+p_model                 = models/p_uzi.mdl
+p_model_akimbo          = models/p_2uzis.mdl
+w_model                 = models/w_uzi.mdl
+w_model_akimbo          = models/w_2uzis.mdl
+hud_folder              = hlcoop
+slot                    = 1
+slot_position           = 6
+weight                  = 15
+deploy_anim             = 2
+deploy_time             = 1280ms
+thirdperson_anims       = onehanded
+thirdperson_anims_akimbo= uzis
+
+[primary_ammo]
+type                    = 9mm
+clip_size               = 32
+drop_entity             = ammo_uziclip
+drop_amount             = 32
+
+[akimbo]
+deploy_anim             = 9
+deploy_time             = 420ms
+akimbo_deploy_anim      = 8
+akimbo_deploy_time      = 500ms
+holster_anim            = 10
+holster_time            = 170ms
+accuracy                = 9.00
+
+[idle]
+anim                    = 0
+weight                  = 90
+time                    = 5000ms
+
+[idle]
+anim                    = 1
+weight                  = 10
+time                    = 6730ms
+
+[idle_akimbo]
+anim                    = 6
+weight                  = 100
+time                    = 2000ms
+
+
+
+; --------------------------------
+; Primary attack
+; --------------------------------
+
+[primary_attack]
+ammo_cost               = 1
+cooldown                = 70ms
+accuracy                = 6.00
+
+[event.primary_attack_not_akimbo.weapon_anim]
+anims                   = 4
+
+[event.primary_attack_akimbo.weapon_anim]
+hand                    = trigger
+anims                   = 12
+
+[event.primary_attack.sound]
+volume_for_ai           = normal
+sound                   = weapons/uzi/shoot1.wav
+volume                  = 0.60
+attenuation             = 0.80
+pitch_min               = 96
+pitch_max               = 104
+sound2                  = weapons/uzi/shoot2.wav
+sound3                  = weapons/uzi/shoot3.wav
+distant_sound           = distant_9mm
+
+[event.primary_attack_not_akimbo.bullets]
+count                   = 1
+damage                  = sk_plr_9mm_bullet
+accuracy                = 6.00
+tracer_frequency        = 2
+
+[event.primary_attack_akimbo.bullets]
+count                   = 1
+damage                  = sk_plr_9mm_bullet
+accuracy                = 9.00
+tracer_frequency        = 2
+
+[event.primary_attack.recoil]
+angles                  = 2.00 0.00 0.00
+
+[event.primary_attack.eject_shell]
+sound                   = shell
+model                   = models/shell.mdl
+offset                  = 18 -8 10
+
+
+
+; --------------------------------
+; Tertiary attack
+; --------------------------------
+
+[tertiary_attack]
+flags                   = not_an_attack + always_cooldown_idle + akimbo_only
+cooldown                = 1870ms
+
+[event.tertiary_attack.cooldown]
+time                    = 2500ms
+actions                 = idle
+
+[event.tertiary_attack_not_akimbo.weapon_anim]
+anims                   = 7
+
+[event.tertiary_attack_not_akimbo.sound]
+delay                   = 100ms
+sound                   = weapons/uzi/akimbo_pull2.wav
+
+[event.tertiary_attack_not_akimbo.sound]
+delay                   = 400ms
+sound                   = weapons/uzi/akimbo_pull1.wav
+
+[event.tertiary_attack_not_akimbo.sound]
+delay                   = 1000ms
+sound                   = weapons/uzi/deploy1.wav
+
+[event.tertiary_attack_not_akimbo.toggle_state]
+delay                   = 1200ms
+toggle_mode             = on
+toggled_states          = akimbo
+
+[event.tertiary_attack_akimbo.weapon_anim]
+anims                   = 10
+
+[event.tertiary_attack_akimbo.sound]
+sound                   = weapons/uzi/deploy1.wav
+
+[event.tertiary_attack_akimbo.toggle_state]
+delay                   = 500ms
+toggle_mode             = off
+toggled_states          = akimbo
+
+
+
+; --------------------------------
+; Reload
+; --------------------------------
+
+[reload]
+anim                    = 5
+time                    = 2600ms
+
+[reload_akimbo]
+anim                    = 11
+time                    = 2360ms
+
+[event.reload.sound]
+delay                   = 300ms
+sound                   = weapons/uzi/reload1.wav
+
+[event.reload_not_akimbo.sound]
+delay                   = 800ms
+sound                   = weapons/uzi/akimbo_pull2.wav
+
+[event.reload_akimbo.sound]
+delay                   = 1000ms
+sound                   = weapons/uzi/reload2.wav
+
+[event.reload_not_akimbo.sound]
+delay                   = 1200ms
+sound                   = weapons/uzi/reload2.wav
+
+[event.reload_not_akimbo.sound]
+delay                   = 1900ms
+sound                   = weapons/uzi/reload3.wav
+
+
+
+; --------------------------------
+; Deploy events
+; --------------------------------
+
+[event.deploy_not_akimbo.sound]
+delay                   = 100ms
+sound                   = weapons/uzi/deploy.wav
+
+[event.deploy_akimbo.sound]
+sound                   = weapons/uzi/akimbo_deploy.wav
+
+[event.deploy_akimbo.cooldown]
+time                    = 1170ms
+actions                 = idle
