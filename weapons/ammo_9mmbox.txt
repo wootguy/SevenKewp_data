@@ -1,0 +1,5 @@
+[general]
+classname    = ammo_9mmbox
+model        = models/w_chainammo.mdl
+ammo_type    = 9mm
+ammo_given   = 200

@@ -48,7 +48,7 @@ anims                   = 6 7 8
 [event.primary_attack.sound]
 volume_for_ai           = loud
 channel                 = weapon
-sound                   = hlcoop/weapons/saw_fire1.wav
+sound                   = weapons/saw_fire1.wav
 attenuation             = 0.80
 pitch_min               = 94
 pitch_max               = 109
@@ -114,11 +114,11 @@ time                    = 3800ms
 
 [event.reload.sound]
 delay                   = 16ms
-sound                   = hlcoop/weapons/saw_reload.wav
+sound                   = weapons/saw_reload.wav
 
 [event.reload.sound]
 delay                   = 1330ms
-sound                   = hlcoop/weapons/saw_reload2.wav
+sound                   = weapons/saw_reload2.wav
 
 [event.reload.set_weapon_body]
 delay                   = 1330ms

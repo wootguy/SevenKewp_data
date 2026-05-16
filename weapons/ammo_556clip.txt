@@ -1,0 +1,6 @@
+[general]
+classname    = ammo_556
+model        = models/w_9mmarclip.mdl
+ammo_type    = 556
+ammo_type_hl = 9mm
+ammo_given   = 30

@@ -1,0 +1,5 @@
+[general]
+classname    = ammo_uziclip
+model        = models/w_uzi_clip.mdl
+ammo_type    = 9mm
+ammo_given   = 32

@@ -1,0 +1,5 @@
+[general]
+classname    = ammo_medkit
+model        = models/w_pmedkit.mdl
+ammo_type    = health
+ammo_given   = 10

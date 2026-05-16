@@ -1,0 +1,5 @@
+[general]
+classname    = ammo_9mmAR
+model        = models/w_9mmARclip.mdl
+ammo_type    = 9mm
+ammo_given   = 50

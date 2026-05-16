@@ -1,0 +1,5 @@
+[general]
+classname    = ammo_crossbow
+model        = models/w_crossbow_clip.mdl
+ammo_type    = bolts
+ammo_given   = 5

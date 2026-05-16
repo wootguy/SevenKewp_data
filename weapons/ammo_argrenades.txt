@@ -1,0 +1,5 @@
+[general]
+classname    = ammo_ARgrenades
+model        = models/w_ARgrenade.mdl
+ammo_type    = ARgrenades
+ammo_given   = 2

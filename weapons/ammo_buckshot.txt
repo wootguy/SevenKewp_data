@@ -1,0 +1,5 @@
+[general]
+classname    = ammo_buckshot
+model        = models/w_shotbox.mdl
+ammo_type    = buckshot
+ammo_given   = 12

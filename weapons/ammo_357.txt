@@ -1,0 +1,5 @@
+[general]
+classname    = ammo_357
+model        = models/w_357ammobox.mdl
+ammo_type    = 357
+ammo_given   = 6

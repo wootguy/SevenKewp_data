@@ -1,0 +1,5 @@
+[general]
+classname    = ammo_gaussclip
+model        = models/w_gaussammo.mdl
+ammo_type    = uranium
+ammo_given   = 20

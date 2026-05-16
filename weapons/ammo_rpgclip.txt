@@ -1,0 +1,5 @@
+[general]
+classname    = ammo_rpgclip
+model        = models/w_rpgammo.mdl
+ammo_type    = rockets
+ammo_given   = 2

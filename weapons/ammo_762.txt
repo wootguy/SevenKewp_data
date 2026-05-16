@@ -1,0 +1,6 @@
+[general]
+classname    = ammo_762
+model        = models/w_m40a1clip.mdl
+ammo_type    = 762
+ammo_type_hl = bolts
+ammo_given   = 5
