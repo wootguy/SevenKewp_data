@@ -226,6 +226,7 @@ sprites/ofch1.spr							sprites/hlcoop/ofch1.spr
 sprites/tongue.spr							sprites/hlcoop/tongue.spr
 sprites/disp_ring.spr						sprites/hlcoop/disp_ring.spr
 sprites/rain_splash.spr						sprites/hlcoop/rain_splash.spr
+sprites/saveme.spr							sprites/hlcoop/saveme.spr
 sprites/voiceicon_m.spr						sprites/hlcoop/voiceicon_m.spr
 sprites/wep_smoke_01.spr					sprites/hlcoop/wep_smoke_01.spr
 sprites/te_decal.spr						sprites/hlcoop/te_decal.spr
