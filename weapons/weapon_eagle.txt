@@ -22,7 +22,7 @@ drop_entity             = ammo_357
 drop_amount             = 6
 
 [laser]
-dot_sprite              = sprites/hlcoop/laserdot.spr
+dot_sprite              = sprites/laserdot.spr
 beam_sprite             = sprites/laserbeam.spr
 dot_size                = 5
 beam_width              = 1
@@ -130,7 +130,7 @@ time                    = 1680ms
 
 [event.reload.sound]
 delay                   = 16ms
-sound                   = hlcoop/weapons/desert_eagle_reload.wav
+sound                   = weapons/desert_eagle_reload.wav
 
 
 
@@ -141,7 +141,7 @@ sound                   = hlcoop/weapons/desert_eagle_reload.wav
 [event.bullet_fired.sound]
 volume_for_ai           = normal
 channel                 = weapon
-sound                   = hlcoop/weapons/desert_eagle_fire.wav
+sound                   = weapons/desert_eagle_fire.wav
 attenuation             = 0.80
 pitch_min               = 94
 pitch_max               = 109
@@ -166,7 +166,7 @@ offset                  = 16 -8 8
 ; --------------------------------
 
 [event.laser_on.sound]
-sound                   = hlcoop/weapons/desert_eagle_sight.wav
+sound                   = weapons/desert_eagle_sight.wav
 
 [event.laser_off.sound]
-sound                   = hlcoop/weapons/desert_eagle_sight2.wav
+sound                   = weapons/desert_eagle_sight2.wav
