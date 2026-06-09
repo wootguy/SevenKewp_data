@@ -155,9 +155,8 @@ angles                  = -4.00 0.00 0.00
 time                    = 400ms
 
 [event.bullet_fired.eject_shell]
-sound                   = shell
 model                   = models/shell.mdl
-offset                  = 16 -8 8
+position                = 16 -8 8
 
 
 

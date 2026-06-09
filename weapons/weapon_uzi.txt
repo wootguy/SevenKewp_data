@@ -93,9 +93,8 @@ tracer_frequency        = 2
 angles                  = 2.00 0.00 0.00
 
 [event.primary_attack.eject_shell]
-sound                   = shell
 model                   = models/shell.mdl
-offset                  = 18 -8 10
+position                = 18 -8 10
 
 
 

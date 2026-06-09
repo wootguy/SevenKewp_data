@@ -86,7 +86,6 @@ speed                   = 800
 elasticity              = 0.80
 gravity                 = 0.50
 hull_size               = 0.01
-direction               = 0.00 0.00 1.00
 
 
 
@@ -138,9 +137,8 @@ distant_sound           = distant_556
 angles                  = 1.50 0.00 0.00
 
 [event.bullet_fired.eject_shell]
-sound                   = shell
 model                   = models/saw_shell.mdl
-offset                  = 12 -8 9
+position                = 12 -8 9
 
 [event.bullet_fired.weapon_anim]
 anims                   = 4 5

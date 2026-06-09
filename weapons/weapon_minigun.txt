@@ -64,14 +64,12 @@ accuracy                = 4.00
 tracer_frequency        = 2
 
 [event.primary_clip_is_even.eject_shell]
-sound                   = shell
-model                   = models/hlcoop_v2/saw_link.mdl
-offset                  = 9 -8 2
+model                   = models/saw_link.mdl
+position                = 9 -8 2
 
 [event.primary_clip_is_odd.eject_shell]
-sound                   = shell
-model                   = models/hlcoop_v2/saw_shell.mdl
-offset                  = 9 -8 2
+model                   = models/saw_shell.mdl
+position                = 9 -8 2
 
 [event.primary_attack_charge.weapon_anim]
 anims                   = 6
