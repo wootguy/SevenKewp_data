@@ -13,8 +13,6 @@ hud_folder              = hlcoop
 slot                    = 1
 slot_position           = 6
 weight                  = 15
-deploy_anim             = 2
-deploy_time             = 1280ms
 thirdperson_anims       = onehanded
 thirdperson_anims_akimbo= uzis
 
@@ -27,8 +25,6 @@ drop_amount             = 32
 [akimbo]
 deploy_anim             = 9
 deploy_time             = 420ms
-akimbo_deploy_anim      = 8
-akimbo_deploy_time      = 500ms
 holster_anim            = 10
 holster_time            = 170ms
 accuracy                = 9.00
@@ -191,3 +187,11 @@ sound                   = weapons/uzi/akimbo_deploy.wav
 [event.deploy_akimbo.cooldown]
 time                    = 1170ms
 actions                 = idle
+
+[event.deploy_not_akimbo.weapon_anim]
+anims                   = 2
+cooldown                = 1280ms
+
+[event.deploy_akimbo.weapon_anim]
+anims                   = 8
+cooldown                = 500ms

@@ -11,7 +11,6 @@ hud_folder              = hlcoop
 slot                    = 5
 slot_position           = 1
 weight                  = 20
-deploy_anim             = 0
 thirdperson_anims       = sniper
 thirdperson_anims_zoom  = sniperscope
 
@@ -109,3 +108,13 @@ sound                   = weapons/sniper_reload_second_seq.wav
 [event.reload_empty.weapon_anim]
 delay                   = 2324ms
 anims                   = 5
+
+
+
+; --------------------------------
+; Deploy events
+; --------------------------------
+
+[event.deploy.weapon_anim]
+anims                   = 0
+cooldown                = 500ms

@@ -11,8 +11,6 @@ hud_folder              = hlcoop
 slot                    = 1
 slot_position           = 5
 weight                  = 15
-deploy_anim             = 9
-deploy_anim_time        = 890ms
 thirdperson_anims       = python
 
 [primary_ammo]
@@ -131,6 +129,16 @@ time                    = 1680ms
 [event.reload.sound]
 delay                   = 16ms
 sound                   = weapons/desert_eagle_reload.wav
+
+
+
+; --------------------------------
+; Deploy events
+; --------------------------------
+
+[event.deploy.weapon_anim]
+anims                   = 9
+cooldown                = 500ms
 
 
 

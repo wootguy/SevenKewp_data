@@ -11,7 +11,6 @@ hud_folder              = hlcoop
 slot                    = 5
 slot_position           = 2
 weight                  = 20
-deploy_anim             = 4
 thirdperson_anims       = saw
 move_speed              = 0.60
 jump_power              = 200
@@ -88,6 +87,7 @@ anims                   = 7
 [event.primary_attack_stop.weapon_anim]
 delay                   = 1000ms
 flags                   = thirdperson_model
+anims                   = 0
 
 [event.primary_attack_stop.sound]
 sound                   = hassault/hw_spindown.wav
@@ -129,6 +129,16 @@ anims                   = 8
 [event.secondary_attack.sound]
 volume                  = 0.50
 sound                   = hassault/hw_spin2.wav
+
+
+
+; --------------------------------
+; Deploy events
+; --------------------------------
+
+[event.deploy.weapon_anim]
+anims                   = 4
+cooldown                = 500ms
 
 
 

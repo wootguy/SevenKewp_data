@@ -11,8 +11,6 @@ hud_folder              = hlcoop
 slot                    = 5
 slot_position           = 0
 weight                  = 20
-deploy_anim             = 5
-deploy_anim_time        = 1030ms
 thirdperson_anims       = saw
 
 [primary_ammo]
@@ -124,3 +122,13 @@ delay                   = 1330ms
 [event.reload.weapon_anim]
 delay                   = 1330ms
 anims                   = 3
+
+
+
+; --------------------------------
+; Deploy events
+; --------------------------------
+
+[event.deploy.weapon_anim]
+anims                   = 5
+cooldown                = 500ms

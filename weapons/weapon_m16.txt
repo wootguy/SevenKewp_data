@@ -11,7 +11,6 @@ hud_folder              = hlcoop
 slot                    = 2
 slot_position           = 4
 weight                  = 15
-deploy_anim             = 0
 thirdperson_anims       = mp5
 
 [primary_ammo]
@@ -117,6 +116,10 @@ sound                   = weapons/m16_charge.wav
 
 [event.deploy.sound]
 sound                   = weapons/m16_draw.wav
+
+[event.deploy.weapon_anim]
+anims                   = 0
+cooldown                = 500ms
 
 
 
