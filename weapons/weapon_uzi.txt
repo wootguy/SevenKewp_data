@@ -162,9 +162,17 @@ sound                   = weapons/uzi/reload3.wav
 ; Deploy events
 ; --------------------------------
 
-[event.deploy_not_akimbo.sound]
+[event.deploy.weapon_anim]
+anims                   = 2
+cooldown                = 1280ms
+
+[event.deploy.sound]
 delay                   = 100ms
 sound                   = weapons/uzi/deploy.wav
+
+[event.deploy_akimbo.weapon_anim]
+anims                   = 8
+cooldown                = 500ms
 
 [event.deploy_akimbo.sound]
 sound                   = weapons/uzi/akimbo_deploy.wav
@@ -172,14 +180,6 @@ sound                   = weapons/uzi/akimbo_deploy.wav
 [event.deploy_akimbo.cooldown]
 time                    = 1170ms
 actions                 = idle
-
-[event.deploy_not_akimbo.weapon_anim]
-anims                   = 2
-cooldown                = 1280ms
-
-[event.deploy_akimbo.weapon_anim]
-anims                   = 8
-cooldown                = 500ms
 
 
 
