@@ -21,21 +21,6 @@ default_give            = 100
 drop_entity             = ammo_556
 drop_amount             = 100
 
-[idle]
-anim                    = 2
-weight                  = 85
-time                    = 6200ms
-
-[idle]
-anim                    = 0
-weight                  = 10
-time                    = 6200ms
-
-[idle]
-anim                    = 1
-weight                  = 5
-time                    = 6200ms
-
 
 
 ; --------------------------------
@@ -139,6 +124,16 @@ sound                   = hassault/hw_spin2.wav
 [event.deploy.weapon_anim]
 anims                   = 4
 cooldown                = 500ms
+
+
+
+; --------------------------------
+; Idle events
+; --------------------------------
+
+[event.idle.weapon_anim]
+anims                   = 2 0 1
+weights                 = 85 10 5
 
 
 

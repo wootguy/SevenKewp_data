@@ -20,11 +20,6 @@ clip_size               = 5
 drop_entity             = ammo_762
 drop_amount             = 5
 
-[idle]
-anim                    = 1
-weight                  = 100
-time                    = 4348ms
-
 
 
 ; --------------------------------
@@ -118,3 +113,13 @@ anims                   = 5
 [event.deploy.weapon_anim]
 anims                   = 0
 cooldown                = 500ms
+
+
+
+; --------------------------------
+; Idle events
+; --------------------------------
+
+[event.idle.weapon_anim]
+anims                   = 1
+weights                 = 100

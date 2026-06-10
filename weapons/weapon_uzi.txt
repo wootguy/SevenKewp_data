@@ -29,21 +29,6 @@ holster_anim            = 10
 holster_time            = 170ms
 accuracy                = 9.00
 
-[idle]
-anim                    = 0
-weight                  = 90
-time                    = 5000ms
-
-[idle]
-anim                    = 1
-weight                  = 10
-time                    = 6730ms
-
-[idle_akimbo]
-anim                    = 6
-weight                  = 100
-time                    = 2000ms
-
 
 
 ; --------------------------------
@@ -195,3 +180,17 @@ cooldown                = 1280ms
 [event.deploy_akimbo.weapon_anim]
 anims                   = 8
 cooldown                = 500ms
+
+
+
+; --------------------------------
+; Idle events
+; --------------------------------
+
+[event.idle.weapon_anim]
+anims                   = 0 1
+weights                 = 90 10
+
+[event.idle_akimbo.weapon_anim]
+anims                   = 6
+weights                 = 100

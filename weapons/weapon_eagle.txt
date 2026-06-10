@@ -26,41 +26,6 @@ dot_size                = 5
 beam_width              = 1
 attachment              = 2
 
-[idle]
-anim                    = 2
-weight                  = 60
-time                    = 1670ms
-
-[idle]
-anim                    = 4
-weight                  = 20
-time                    = 2030ms
-
-[idle]
-anim                    = 0
-weight                  = 10
-time                    = 2530ms
-
-[idle]
-anim                    = 1
-weight                  = 10
-time                    = 2540ms
-
-[idle_laser]
-anim                    = 2
-weight                  = 80
-time                    = 1670ms
-
-[idle_laser]
-anim                    = 4
-weight                  = 10
-time                    = 2030ms
-
-[idle_laser]
-anim                    = 3
-weight                  = 10
-time                    = 2530ms
-
 
 
 ; --------------------------------
@@ -139,6 +104,20 @@ sound                   = weapons/desert_eagle_reload.wav
 [event.deploy.weapon_anim]
 anims                   = 9
 cooldown                = 500ms
+
+
+
+; --------------------------------
+; Idle events
+; --------------------------------
+
+[event.idle.weapon_anim]
+anims                   = 2 4 0 1
+weights                 = 60 20 10 10
+
+[event.idle_laser.weapon_anim]
+anims                   = 2 4 3
+weights                 = 80 10 10
 
 
 

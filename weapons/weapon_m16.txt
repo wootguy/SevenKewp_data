@@ -24,16 +24,6 @@ type                    = ARgrenades
 drop_entity             = ammo_ARgrenades
 drop_amount             = 2
 
-[idle]
-anim                    = 2
-weight                  = 80
-time                    = 3400ms
-
-[idle]
-anim                    = 3
-weight                  = 20
-time                    = 2870ms
-
 
 
 ; --------------------------------
@@ -120,6 +110,16 @@ sound                   = weapons/m16_draw.wav
 [event.deploy.weapon_anim]
 anims                   = 0
 cooldown                = 500ms
+
+
+
+; --------------------------------
+; Idle events
+; --------------------------------
+
+[event.idle.weapon_anim]
+anims                   = 2 3
+weights                 = 80 20
 
 
 
