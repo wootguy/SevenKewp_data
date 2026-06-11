@@ -64,6 +64,12 @@ count                   = 1
 damage                  = sk_plr_357_bullet
 accuracy                = 0.50
 
+[event.primary_alt_clip_is_not_empty.weapon_anim]
+anims                   = 5
+
+[event.primary_alt_clip_is_0.weapon_anim]
+anims                   = 6
+
 
 
 ; --------------------------------
@@ -73,8 +79,6 @@ accuracy                = 0.50
 [secondary_attack]
 flags                   = not_an_attack
 cooldown                = 500ms
-
-[event.secondary_attack.toggle_state]
 toggled_states          = primary_alt + laser
 
 

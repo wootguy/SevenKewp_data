@@ -70,12 +70,12 @@ sound                   = weapons/sniper_bolt2.wav
 [secondary_attack]
 flags                   = not_an_attack
 cooldown                = 500ms
+zoom_levels             = 1
+zoom_fov                = 18
+toggled_states          = zoom
 
 [event.secondary_attack.sound]
 sound                   = weapons/sniper_zoom.wav
-
-[event.secondary_attack.toggle_zoom]
-zoom_fov                = 18
 
 
 
