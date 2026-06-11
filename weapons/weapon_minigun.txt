@@ -151,9 +151,13 @@ pitch_max               = 109
 distant_sound           = distant_9mm
 
 [event.bullet_fired.recoil]
-flags                   = no_recovery + only_when_standing
+angle_mode              = random
+view_mode               = rotate
+flags                   = only_when_standing
 angles                  = 1.30 1.30 0.00
 
 [event.bullet_fired.recoil]
-flags                   = no_recovery + only_when_ducking
+angle_mode              = random
+view_mode               = rotate
+flags                   = only_when_ducking
 angles                  = 1.00 1.00 0.00

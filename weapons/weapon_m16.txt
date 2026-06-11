@@ -56,7 +56,6 @@ cooldown                = 1000ms
 anims                   = 7
 
 [event.secondary_attack.recoil]
-flags                   = set_angles
 angles                  = -10.00 0.00 0.00
 
 [event.secondary_attack.sound]
@@ -137,6 +136,7 @@ pitch_max               = 109
 distant_sound           = distant_556
 
 [event.bullet_fired.recoil]
+angle_mode              = random
 angles                  = 1.50 0.00 0.00
 
 [event.bullet_fired.eject_shell]

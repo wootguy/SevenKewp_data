@@ -45,7 +45,6 @@ damage                  = sk_plr_762_bullet
 accuracy                = 0.11
 
 [event.primary_attack.recoil]
-flags                   = set_angles
 angles                  = -2.00 0.00 0.00
 
 [event.primary_clip_is_not_empty.weapon_anim]

@@ -54,6 +54,7 @@ push_force              = 35
 percent_back            = 100
 
 [event.primary_attack.recoil]
+angle_mode              = random
 angles                  = 2.00 1.00 0.00
 
 [event.primary_clip_is_even.eject_shell]

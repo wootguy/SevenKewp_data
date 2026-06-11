@@ -71,6 +71,7 @@ accuracy                = 9.00
 tracer_frequency        = 2
 
 [event.primary_attack.recoil]
+angle_mode              = random
 angles                  = 2.00 0.00 0.00
 
 [event.primary_attack.eject_shell]

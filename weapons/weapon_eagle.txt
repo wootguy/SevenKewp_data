@@ -135,7 +135,6 @@ pitch_max               = 109
 distant_sound           = distant_357
 
 [event.bullet_fired.recoil]
-flags                   = set_angles
 angles                  = -4.00 0.00 0.00
 
 [event.bullet_fired.hide_laser]
