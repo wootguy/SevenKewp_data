@@ -31,20 +31,20 @@ drop_amount             = 100
 ammo_cost               = 2
 cooldown                = 50ms
 cooldown_fail           = 200ms
-accuracy                = 4.00
 charge_mode             = constant_fire
 charge_time             = 800ms
 charge_cancel_time      = 800ms
 charge_move_speed       = 0.40
+accuracy                = 4.00
 
 [event.primary_attack.weapon_anim]
 anims                   = 9
 
 [event.primary_attack.bullets]
 count                   = 2
-burst_delay             = 25ms
-damage                  = sk_plr_556_bullet
 accuracy                = 4.00
+damage                  = sk_plr_556_bullet
+burst_delay             = 25ms
 tracer_frequency        = 2
 
 [event.primary_clip_is_even.eject_shell]

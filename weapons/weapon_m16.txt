@@ -37,9 +37,9 @@ accuracy                = 3.00
 
 [event.primary_attack.bullets]
 count                   = 3
-burst_delay             = 80ms
-damage                  = sk_plr_556_bullet
 accuracy                = 3.00
+damage                  = sk_plr_556_bullet
+burst_delay             = 80ms
 tracer_frequency        = 2
 
 

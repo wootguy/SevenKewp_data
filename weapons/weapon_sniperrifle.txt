@@ -41,8 +41,8 @@ pitch_max               = 109
 
 [event.primary_attack.bullets]
 count                   = 1
-damage                  = sk_plr_762_bullet
 accuracy                = 0.11
+damage                  = sk_plr_762_bullet
 
 [event.primary_attack.recoil]
 angles                  = -2.00 0.00 0.00

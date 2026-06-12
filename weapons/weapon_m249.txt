@@ -44,10 +44,10 @@ distant_sound           = distant_556
 
 [event.primary_attack.bullets]
 count                   = 1
-damage                  = sk_plr_556_bullet
 accuracy                = 6.00
-tracer_frequency        = 2
+damage                  = sk_plr_556_bullet
 flags                   = dynamic_spread
+tracer_frequency        = 2
 
 [event.primary_attack.kickback]
 push_force              = 35

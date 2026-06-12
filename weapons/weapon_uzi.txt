@@ -60,14 +60,14 @@ distant_sound           = distant_9mm
 
 [event.primary_attack_not_akimbo.bullets]
 count                   = 1
-damage                  = sk_plr_9mm_bullet
 accuracy                = 6.00
+damage                  = sk_plr_9mm_bullet
 tracer_frequency        = 2
 
 [event.primary_attack_akimbo.bullets]
 count                   = 1
-damage                  = sk_plr_9mm_bullet
 accuracy                = 9.00
+damage                  = sk_plr_9mm_bullet
 tracer_frequency        = 2
 
 [event.primary_attack.recoil]
