@@ -87,6 +87,9 @@ position                = 18 -8 10
 [tertiary_attack]
 flags                   = not_an_attack + always_cooldown_idle + akimbo_only
 cooldown                = 1870ms
+toggle_on_delay         = 1200ms
+toggle_off_delay        = 500ms
+toggled_states          = akimbo
 
 [event.tertiary_attack.cooldown]
 time                    = 2500ms
@@ -107,21 +110,11 @@ sound                   = weapons/uzi/akimbo_pull1.wav
 delay                   = 1000ms
 sound                   = weapons/uzi/deploy1.wav
 
-[event.tertiary_attack_not_akimbo.toggle_state]
-delay                   = 1200ms
-toggle_mode             = on
-toggled_states          = akimbo
-
 [event.tertiary_attack_akimbo.weapon_anim]
 anims                   = 10
 
 [event.tertiary_attack_akimbo.sound]
 sound                   = weapons/uzi/deploy1.wav
-
-[event.tertiary_attack_akimbo.toggle_state]
-delay                   = 500ms
-toggle_mode             = off
-toggled_states          = akimbo
 
 
 
