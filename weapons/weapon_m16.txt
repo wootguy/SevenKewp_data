@@ -21,6 +21,7 @@ drop_amount             = 30
 
 [secondary_ammo]
 type                    = ARgrenades
+clip_size               = 1
 drop_entity             = ammo_ARgrenades
 drop_amount             = 2
 
@@ -85,6 +86,10 @@ hull_size               = 0.01
 anim                    = 6
 time                    = 3370ms
 
+[reload_secondary]
+anim                    = 8
+time                    = 1600ms
+
 [event.reload.sound]
 delay                   = 300ms
 sound                   = weapons/m16_magout_metallic.wav
@@ -96,6 +101,9 @@ sound                   = weapons/m16_magin_metallic.wav
 [event.reload.sound]
 delay                   = 2200ms
 sound                   = weapons/m16_charge.wav
+
+[event.reload_secondary.sound]
+sound                   = weapons/gl_reload.wav
 
 
 

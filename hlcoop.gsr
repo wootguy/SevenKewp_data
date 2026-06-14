@@ -386,6 +386,7 @@ weapons/distant/crack_9mm.wav				hlcoop/weapons/distant/crack_9mm.wav
 weapons/distant/explode3.wav				hlcoop/weapons/distant/explode3.wav
 weapons/distant/explode4.wav				hlcoop/weapons/distant/explode4.wav
 weapons/distant/explode5.wav				hlcoop/weapons/distant/explode5.wav
+weapons/gl_reload.wav						hlcoop/weapons/gl_reload.wav
 weapons/glock_reload.wav					hlcoop/weapons/glock_reload.wav
 weapons/knife1.wav							hlcoop/weapons/knife1.wav
 weapons/knife2.wav							hlcoop/weapons/knife2.wav
