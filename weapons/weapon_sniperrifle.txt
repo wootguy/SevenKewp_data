@@ -27,6 +27,7 @@ drop_amount             = 5
 ; --------------------------------
 
 [primary_attack]
+flags                   = chambered
 ammo_cost               = 1
 cooldown                = 2000ms
 accuracy                = 0.11
@@ -86,10 +87,13 @@ sound                   = weapons/sniper_zoom.wav
 [reload]
 anim                    = 6
 time                    = 2353ms
+load_time               = 1900ms
 
 [reload_empty]
 anim                    = 4
 time                    = 4102ms
+flags                   = chambered
+load_time               = 1900ms
 
 [event.reload.sound]
 delay                   = 16ms
@@ -112,6 +116,18 @@ anims                   = 5
 [event.deploy.weapon_anim]
 anims                   = 0
 cooldown                = 500ms
+
+[event.deploy_chamber.weapon_anim]
+anims                   = 0
+cooldown                = 2500ms
+
+[event.deploy_chamber.weapon_anim]
+delay                   = 800ms
+anims                   = 5
+
+[event.deploy_chamber.sound]
+delay                   = 800ms
+sound                   = weapons/sniper_reload_second_seq.wav
 
 
 

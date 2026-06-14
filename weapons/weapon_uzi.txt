@@ -125,10 +125,12 @@ sound                   = weapons/uzi/deploy1.wav
 [reload]
 anim                    = 5
 time                    = 2600ms
+load_time               = 1500ms
 
 [reload_akimbo]
 anim                    = 11
 time                    = 2360ms
+load_time               = 1200ms
 
 [event.reload.sound]
 delay                   = 300ms
@@ -144,10 +146,12 @@ sound                   = weapons/uzi/reload2.wav
 
 [event.reload_not_akimbo.sound]
 delay                   = 1200ms
+volume                  = 0.91
 sound                   = weapons/uzi/reload2.wav
 
 [event.reload_not_akimbo.sound]
 delay                   = 1900ms
+volume                  = 0.80
 sound                   = weapons/uzi/reload3.wav
 
 

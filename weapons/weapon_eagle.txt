@@ -90,10 +90,12 @@ toggled_states          = primary_alt + laser
 [reload]
 anim                    = 8
 time                    = 1680ms
+load_time               = 1200ms
 
 [reload_empty]
 anim                    = 7
 time                    = 1680ms
+load_time               = 1200ms
 
 [event.reload.sound]
 delay                   = 16ms
