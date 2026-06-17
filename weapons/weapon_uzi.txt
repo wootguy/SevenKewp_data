@@ -146,13 +146,13 @@ sound                   = weapons/uzi/reload2.wav
 
 [event.reload_not_akimbo.sound]
 delay                   = 1200ms
-volume                  = 0.91
 sound                   = weapons/uzi/reload2.wav
+volume                  = 0.91
 
 [event.reload_not_akimbo.sound]
 delay                   = 1900ms
-volume                  = 0.80
 sound                   = weapons/uzi/reload3.wav
+volume                  = 0.80
 
 
 

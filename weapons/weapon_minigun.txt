@@ -90,8 +90,8 @@ flags                   = no_reset
 anims                   = 8
 
 [event.primary_attack_fail.sound]
-volume                  = 0.50
 sound                   = hassault/hw_spin2.wav
+volume                  = 0.50
 
 
 
@@ -112,8 +112,8 @@ flags                   = no_reset
 anims                   = 8
 
 [event.secondary_attack.sound]
-volume                  = 0.50
 sound                   = hassault/hw_spin2.wav
+volume                  = 0.50
 
 
 
