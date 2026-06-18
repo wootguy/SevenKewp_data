@@ -27,9 +27,9 @@ drop_amount             = 5
 ; --------------------------------
 
 [primary_attack]
-flags                   = chambered
 ammo_cost               = 1
 cooldown                = 2000ms
+chamber_time            = 1200ms
 accuracy                = 0.11
 
 [event.primary_attack.sound]
@@ -92,8 +92,8 @@ load_time               = 1900ms
 [reload_empty]
 anim                    = 4
 time                    = 4102ms
-flags                   = chambered
 load_time               = 1900ms
+chamber_time            = 3200ms
 
 [event.reload.sound]
 delay                   = 16ms
