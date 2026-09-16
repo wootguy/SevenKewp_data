@@ -134,6 +134,19 @@
 	]
 ]
 
+@PointClass base(Targetname) = game_motd : "Map Briefing"
+[
+	motd_title(string) : "Window Title" : "" : "Title of the MOTD window. Defaults to the current map name. Disabled in long mode."
+	motd_file(string) : "File Path" : "" : "File to load MOTD text from. Paths start in maps/ and do not include the .txt extension. If no path is given, then the following defaults are tried in order: mapname_motd, mapname, mapname_readme"
+	message(string) : "Message Text" : "" : "Text to display, if no File Path is set"
+
+	spawnflags(Flags) =
+	[
+		1: "All players" : 0 : "Open MOTD window for all players, not just the activator"
+		2: "Long mode" : 0 : "Sends the MOTD file to clients for loading locally. Enables longer text but disables custom titles."
+	]
+]
+
 //
 // Weapons
 //
