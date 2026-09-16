@@ -27,11 +27,6 @@
 	"4" "Suicide" "kill"
 	"5" "Spectate" "spectate"
 }
-"1" "Weapon Loadout"
-{
-	"1" "SevenKewp" "cl_class 0"
-	"2" "Half-Life Deathmatch" "cl_class 1"
-}
 "2" "Camera"
 {
 	"1" "Toggle Thirdperson" "+thirdperson;-thirdperson"
@@ -229,11 +224,16 @@
 		"1" "Disable" "cl_rspeeds 0"
 	}
 }
-//"4" "Help"
-//{
-//	CUSTOM		"1" "Server Info"		"!SERVERINFO"
-//	CUSTOM		"2" "Map Description"	"!MAPBRIEFING"
-//}
+"6" "Weapon Loadout"
+{
+	"1" "SevenKewp" "cl_class 0"
+	"2" "Half-Life Deathmatch" "cl_class 1"
+}
+"7" "Help"
+{
+	"1" "Server Info" "svmotd"
+	"2" "Map Briefing" "brief"
+}
 
 
 " " "Reconnect"	"retry"
